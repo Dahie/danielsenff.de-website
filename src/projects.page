@@ -1,0 +1,32 @@
+---
+title: Projekte
+in_menu: true
+---
+h2. Projekte
+
+h3. Imageflow
+
+h4. Knotenbasierte Benutzerschnittstelle für ImageJ
+
+Imageflow ist mein Bachelor-Projekt und ist die Implementation der Umsetzung einer knotenbasierten Benutzerführung für ImageJ. Dieses in Java-geschriebene Grafikprogramm dient als Grundlage für Grafikfilter und Verarbeitung. Imageflow macht es möglich durch visuelles Verbinden der Filter einen Workflow zu konstruieren und auf umständliches
+Macro-Scripting zu verzichten.
+
+"Imageflow Development Blog":http://imageflow.danielsenff.de
+"Imageflow bei Github":http://github.com/Dahie/imageflow
+
+h3. DDS-Utils
+
+h4. Plattformübergreifende DirectDrawSurface Texturutilities
+
+
+
+"DDS-Utils bei Github":http://github.com/Dahie/DDS-Utils
+
+h3. Cars & Tracks Development Project
+
+Das CTDP ist ein Team aus Rennsport- und Rennspielenthusiasten, die	für Rennspiele kostenlose Inhalte und Addons produzieren. Wir sind spezialisiert auf F1-Modifikationen für <a href="http://www.rfactor.net" title="Zur rFactor-Webseite">rFactor</a>. Unsere Mods gehören zu den beliebtesten und qualitativ hochwertistigsten der Rennspiele-Community mit mehreren 10.000 Downloads. Neben den kostenlosen Mods, haben wir mit den Machern von rFactor am Intel BMW 2007 und dem "SuperLeague Formula 2009 Game":http://www.slfgame.com zusammengearbeitet, für Simulatorvermietern("Bestsim Simulatoren":http://www.bestsim.de) individuelle Mods gemacht. Unsere Arbeit fand anklang in der Fachpresse, wie in auch in Spielemagazinen wie Gamestar oder PC Gamer oder bei TV-Berichterstattungen.
+            
+Für mich war das CTDP die perfekte Plattform viele Dinge auszuprobieren.
+Die längste Zeit war ich 2D-Designer und habe über 25 Wagentexturen gemacht. Modelling hab ich mir ebenfalls angeschaut, aber nicht weiter verfolgt. Über die Zeit kamen Aufgaben wie die Webseite (Design und Texte), Administration der internen Tools und rudimentäres Projektmanagement dazu. Zuletzt konzentrierte ich mich auf die Entwicklung interner Tools für das Texturen-Management, woraus die DDS-Utils entstanden.
+
+"Cars & Tracks Development Project":http://www.ctdp.net

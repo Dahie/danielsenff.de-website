@@ -1,0 +1,69 @@
+---
+title: Referenzen
+in_menu: true
+---
+h2. Referenzen
+
+h3. Konzeption, Design und Umsetzung
+
+h4. danielsenff.de
+
+* Persönlicher Internet-Auftritt
+* Relaunch 2010 mit webgen
+* webgen, HTML5, SASS
+
+h4. "Cars & Tracks Development":http://www.ctdp.net
+
+* Internet-Auftritt des Cars & Tracks Development Project
+* Erste Variante 2005, Relaunch 2007 mit Typolight/Contao als CMS
+* TypoLight/Contao, XHTML 1.0 Strict, CSS
+* Betreuung begleitender Medien wie Blog, Bugtracker und Forum
+
+h4. "RaceCar":http://www.racecarf1.com
+
+* Internet-Auftritt des fiktiven RaceCar-Motorsportteams.
+* webgen, XHTML 1.0 Strict, SASS
+* Betreuung seit 2002, Relaunch 2010
+
+h3. Konzeption und Umsetzung
+
+h4. "FHTW-Ideenmanagement":http://www.htw-berlin.de/ideenmanagement
+
+* Internet-Auftritt des Ideenmanagement der "FHTW-Berlin":http://www.htw-berlin.de.
+* Sommersemester 2007
+* Ruby-on-Rails, XHTML 1.0 Strict, CSS
+
+h4. "FHTW-Motorsport":http://motorsport.danielsenff.de
+
+* Internet-Auftritt des Formula-Student Motorsport-Teams der FHTW-Berlin.
+* 2005-2007: PHP, XHTML 1.0 Strict, CSS
+
+h3. Umsetzung
+
+h4. "dailyme.tv":http://m.dailyme.tv
+
+* Kataloganwendung als Teil des mobilen Video-Service von dailyme.tv.
+* 2009-heute
+* Ruby-on-Rails, HAML, SASS
+
+h4. "Komland GmbH":http://www.komland.it
+
+* Experte für Kommunalmaschinen in Südtirol.
+* 2. Quartal 2008
+* Typo3, XHTML 1.0 Transitional, CSS
+* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+
+h4. "kuntnerfashion group":http://www.kuntnerfashion.com
+
+* Kleidung, Schuhe und Fashion in Lana, Südtirol.
+* 2. Quartal 2008
+* Typo3, XHTML 1.0 Transitional, CSS
+* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+			
+h4. "Zimmerei/Hausbau Windegger":http://www.windegger.it/
+
+* 2. Quartal 2008: Typo3, XHTML 1.0 Transitional, CSS
+* Zimmerei und Hausbau in Lana, Südtirol.
+* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+
+
