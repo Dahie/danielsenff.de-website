@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="description goes here" />
-    <meta name="keywords" content="keywords,goes,here" />
-    <meta name="author" content="Your Name" />
+    <meta name="keywords" content="Daniel, Dahie, Senff, Java, Rails, HTML, CTDP" />
+    <meta name="author" content="Daniel Senff" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
     <link rel="stylesheet" type="text/css" href="{relocatable: default.css}" />
     <!--[if IE 6]>
@@ -35,10 +35,8 @@
 
       <h3>Links:</h3>
       <ul>
-        <li><a href="http://webgen.rubyforge.org">webgen homepage</a></li>
-        <li><a href="http://andreasviklund.com/templates/">Website templates</a></li>
-        <li><a href="http://openwebdesign.org/">Open Web Design</a></li>
-        <li><a href="http://oswd.org/">OSWD.org</a></li>
+        <li><a href="http://www.unmedial.de">Blog</a></li>
+        <li><a href="http://www.twitter.com/Dahie">Twitter</a></li>
       </ul>
     </div>
 
