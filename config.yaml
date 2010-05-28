@@ -33,3 +33,4 @@ website.lang: de
 patterns:
   Copy:
     add: [**/*.pdf, **/*.djvu]
+    del: [**/*.sass, **/*.rb]    

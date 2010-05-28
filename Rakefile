@@ -70,6 +70,18 @@ task :auto_webgen do
   end
 end
 
+namespace "compass" do
+  task "Compile the compass stylesheet files"
+  task :compile do
+    sh "cd src/ && compass compile && cd .."
+  end
+end
+
+
+task :webgen => ['compass:compile'] do
+end
+
+
 def ftp_files(prefixToRemove, sourceFileList, targetDir, hostname, username, password)
   Net::FTP.open(hostname, username, password) do |ftp|
     begin
