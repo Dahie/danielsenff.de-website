@@ -27,20 +27,18 @@
       <header>
         <h1>Website Title</h1>
         <h2>your website slogan</h2>
+        
+        <nav id="menu">
+          {menu: {max_levels: 1, used_nodes: files}}
+        </nav>  
       </header>
-    <div id="sidebar">
       
-
-      <nav id="menu">
-        {menu: {max_levels: 1, used_nodes: files}}
-      </nav>
 
       <h3>Links:</h3>
       <ul>
         <li><a href="http://www.unmedial.de">Blog</a></li>
         <li><a href="http://www.twitter.com/Dahie">Twitter</a></li>
       </ul>
-    </div>
 
     <section id="content">
       <webgen:block name="content" />

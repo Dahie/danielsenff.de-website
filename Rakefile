@@ -73,7 +73,7 @@ end
 namespace "compass" do
   task "Compile the compass stylesheet files"
   task :compile do
-    sh "cd src/ && compass compile && cd .."
+    sh "compass compile"
   end
 end
 
