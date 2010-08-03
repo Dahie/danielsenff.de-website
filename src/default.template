@@ -9,8 +9,8 @@
     -->
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="description goes here" />
-    <meta name="keywords" content="Daniel, Dahie, Senff, Java, Rails, HTML, CTDP" />
+    <meta name="description" content="Webseite von Daniel Senff, Berliner Programmierer in Ruby-on-Rails und Java" />
+    <meta name="keywords" content="Daniel, Dahie, Senff, Daniel Senff, Java, Rails, HTML, CTDP, Ruby, Portfolio, Profile, Steckbrief, IMI, HTW-Berlin, FHTW, ImageFlow, DDSUtils, ImageJ" />
     <meta name="author" content="Daniel Senff" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
 		<link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
