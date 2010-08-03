@@ -1,0 +1,6 @@
+h1. Changelog
+
+h2. Radds 1.2
+
+* Major internal overhaul, now based on Swing Application Framework
+* Added display of MipMaps
