@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Verdana, Sans serif;
-  font-size: 82%;
+  font-size: 72%;
 }
 /* line 19, ../sass/screen.sass */
 body header {
@@ -76,58 +76,67 @@ body header nav ul li a:link:hover, body header nav ul li a:visited:hover, body 
 
 /* line 68, ../sass/screen.sass */
 section#content h1 {
-  padding-right: 300px;
   background: white url(../images/headline.jpg) no-repeat center left;
   text-align: right;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-/* line 74, ../sass/screen.sass */
+/* line 72, ../sass/screen.sass */
+section#content h1 span {
+  display: block;
+  width: 800px;
+  margin: 0px auto;
+}
+/* line 77, ../sass/screen.sass */
 section#content .inner {
   display: block;
   width: 800px;
   margin: 12px auto;
 }
-/* line 82, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 section#content table th {
   text-align: left;
   padding-right: 12px;
 }
-/* line 86, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 section#content img.cover {
   border: 1px solid #1a1a1a;
   float: left;
   margin-right: 12px;
 }
-/* line 90, ../sass/screen.sass */
+/* line 93, ../sass/screen.sass */
 section#content ul, section#content ol {
   clear: both;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 96, ../sass/screen.sass */
 footer {
   display: block;
   clear: both;
   /*background-color: $darkgrey */
   color: white;
   margin-top: 56px;
-  background: white url(../images/footer.png) no-repeat;
+  background: white url(../images/footer.png) no-repeat left bottom;
   overflow: auto;
 }
-/* line 101, ../sass/screen.sass */
+/* line 104, ../sass/screen.sass */
+footer h3 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* line 106, ../sass/screen.sass */
 footer a {
   color: #fdcb9e;
 }
-/* line 103, ../sass/screen.sass */
+/* line 108, ../sass/screen.sass */
 footer .inner {
   width: 800px;
   margin: 0px auto;
 }
-/* line 106, ../sass/screen.sass */
+/* line 111, ../sass/screen.sass */
 footer .column {
-  width: 20em;
+  width: 13em;
   float: left;
 }
-/* line 109, ../sass/screen.sass */
+/* line 114, ../sass/screen.sass */
 footer .copyright {
   border-top: 1px solid #e28b53;
   clear: both;
@@ -135,7 +144,7 @@ footer .copyright {
   color: #e28b53;
 }
 
-/* line 116, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 a {
   text-decoration: none;
   color: #e28b53;
