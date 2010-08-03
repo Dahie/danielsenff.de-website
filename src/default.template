@@ -13,6 +13,7 @@
     <meta name="keywords" content="Daniel, Dahie, Senff, Java, Rails, HTML, CTDP" />
     <meta name="author" content="Daniel Senff" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
+		<link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
     <link href="{relocatable: /stylesheets/screen.css}" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="{relocatable: /stylesheets/print.css}" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>
@@ -23,26 +24,41 @@
   </head>
 
   <body>
-    <div id="main">
-      <header>
-        <h1>Website Title</h1>
-        <h2>your website slogan</h2>
-        
-        <nav id="menu">
-          {menu: {max_levels: 1, used_nodes: files}}
-        </nav>  
-      </header>
-      
-
-      <h3>Links:</h3>
-      <ul>
-        <li><a href="http://www.unmedial.de">Blog</a></li>
-        <li><a href="http://www.twitter.com/Dahie">Twitter</a></li>
-      </ul>
-
+		<header>
+			<h1><a href="{relocatable: /}">danielsenff.de</a></h1>
+			<h2>your website slogan</h2>
+			
+			<nav id="menu">
+				{menu: {max_levels: 1, used_nodes: files}}
+			</nav>  
+		</header>
+		
     <section id="content">
-      <webgen:block name="content" />
-
+			<h1>{title:}</h1>
+			<div class="inner">
+				<webgen:block name="content" />
+			</div>
     </section>
+		
+		<footer>
+		  <div class="inner">
+				<div class="column">
+					<h3>Lesen:</h3>
+					<ul>
+						<li><a href="http://www.unmedial.de">Blog</a></li>
+						<li><a href="http://www.twitter.com/Dahie">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h3>Netzwerken:</h3>
+					<ul>
+						<li><a href="https://www.xing.com/profile/Daniel_Senff">Xing</a></li>
+						<li><a href="https://github.com/Dahie">github</a></li>
+					</ul>
+				</div>
+				<p class="copyright">&copy; Daniel Senff 2010
+				</p>
+			</div>
+		</footer>
   </body>
 </html>
