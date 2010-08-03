@@ -1,3 +1,13 @@
-h1. About
+---
+title: Über ImageFlow
+in_menu: true
+sort_info: 0
+---
 
-h2. 
+h2. Beschreibung
+
+
+h2. Installation
+
+ImageFlow gibt es als eigenständige Anwendung und als Plugin für ImageJ.
+

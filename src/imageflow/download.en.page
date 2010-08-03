@@ -1,14 +1,14 @@
 ---
-title: Herunterladen
+title: Download
 in_menu: true
 sort_info: 2
 ---
 
-h2. Aktuell
+h2. Latest 
 
 ImageFlow 1.1
 
-h2. Quellcode
+h2. Source 
 
 The source can be accessed through git.
 The "repository":http://github.com/Dahie/imageflow is available at github.

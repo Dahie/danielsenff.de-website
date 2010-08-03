@@ -1,0 +1,32 @@
+---
+title: About
+in_menu: true
+sort_info: 0
+---
+
+h2. Description
+
+This plugin offers a node-based graphical user interface for image editing in ImageJ. It allows to create macros by connecting nodes to form a workflow, which represents the way macro-commands are called by ImageJ. These workflows can be saved and loaded. 
+
+A workflow consists of Sources, which load or create images. They will be connected to other processing units and describe the processing that will be performed. A workflow requires at least one node to be defined as a display. The result of this unit will be opened after running the workflow.
+
+ImageFlow is also available as a stand-alone program that uses ImageJ as a library. To run it, download and extract the archive Imageflow.zip and double click on the ImageFlow_.jar. 
+
+ImageFlow works on all platforms, Java 5.0 or later must be installed.
+
+A large number of unit-elements for building graphs are included, however additional units can be created and added. Documentation on how to create own units is included and can be used. I can incorporate more units in later releases. Feedback of any kind is well appreciated.
+
+
+h2. Installation
+
+ImageFlow can be started as a stand-alone application or as a plugin for ImageJ.
+
+h3. … as stand-alone
+
+Delete the previous version, download Imageflow-binaries and extract somewhere on your hard drive. Start the jar to run the program.
+
+h3. … as ImageJ-plugin
+
+To start Imageflow from ImageJ you have to move "Imageflow"-folder into ImageJ's plugin directory. After restarting ImageJ you will find a menu-item in the Plugins-Menu to start the plugin.
+
+h2. Screenshots

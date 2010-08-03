@@ -1,54 +1,54 @@
 ---
-title: Referenzen
+title: References
 in_menu: true
 ---
 
-h2. Konzeption, Design und Umsetzung
+h2. Conzept, Design and Realization
 
 h3. danielsenff.de
 
-* Persönlicher Internet-Auftritt
-* Relaunch 2010 mit webgen
+* Personal website
+* Relaunch 2010 using webgen
 * webgen, HTML5, SASS
 
 h3. "Cars & Tracks Development":http://www.ctdp.net
 
-* Internet-Auftritt des Cars & Tracks Development Project
-* Erste Variante 2005, Relaunch 2007 mit Typolight/Contao als CMS
+* Website of Cars & Tracks Development Project
+* First Version launched in  2005, Relaunch 2007 using Typolight/Contao as CMS
 * TypoLight/Contao, XHTML 1.0 Strict, CSS
-* Betreuung begleitender Medien wie Blog, Bugtracker und Forum
+* Supervising accompanying media such as the Blog, Bugtracker and Forum
 
 h3. "RaceCar":http://www.racecarf1.com
 
-* Internet-Auftritt des fiktiven RaceCar-Motorsportteams.
-* webgen, XHTML 1.0 Strict, SASS
+* Internet-Auftritt of the fictous RaceCar-motorsports teams.
 * Betreuung seit 2002, Relaunch 2010
+* webgen, XHTML 1.0 Strict, SASS
 
-h2. Konzeption und Umsetzung
+h2. Conzept and Realization
 
 h3. "FHTW-Ideenmanagement":http://www.htw-berlin.de/ideenmanagement
 
-* Internet-Auftritt des Ideenmanagement der "HTW-Berlin":http://www.htw-berlin.de.
-* Sommersemester 2007
+* Internet-Auftritt des idea management of the "HTW-Berlin":http://www.htw-berlin.de.
+* Summer semester 2007
 * Ruby-on-Rails, XHTML 1.0 Strict, CSS
 
 h3. "FHTW-Motorsport":http://motorsport.danielsenff.de
 
-* Internet-Auftritt des Formula-Student Motorsport-Teams der HTW-Berlin.
+* Internet-Auftritt of the Formula-Student motorsports team at the HTW-Berlin.
 * 2005-2007
 * PHP, XHTML 1.0 Strict, CSS
 
-h2. Umsetzung
+h2. Realization
 
 h3. "dailyme.tv":http://m.dailyme.tv
 
 * Kataloganwendung als Teil des mobilen Video-Service von dailyme.tv.
-* 2009-heute
+* 2009-today
 * Ruby-on-Rails, HAML, SASS
 
 h3. "Komland GmbH":http://www.komland.it
 
-* Experte für Kommunalmaschinen in Südtirol.
+* Expert for Kommunalmaschinen in Südtirol.
 * 2. Quartal 2008
 * Typo3, XHTML 1.0 Transitional, CSS
 * Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
