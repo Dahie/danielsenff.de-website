@@ -1,11 +1,42 @@
 ---
-title: Willkommen
+title: Steckbrief
 in_menu: true
-sort_info: 0
+sort_info: 1
 ---
 
-h2. Willkommen
+h2. Allgemein
 
-h2. Projekte
+|_.Name:|	Daniel Senff|
+|_.Geboren:|	14. Dezember 1985|
+|_.Wohnsitz:|	Berlin|
 
-  
+h2. Ausbildung
+
+|_.Schulabschluss:|	Abitur|
+|_.Studium:|	Internationaler Studiengang Medieninformatik|
+|_.Fachhochschule:|	HTW Berlin|
+|_.Abschluss:|	Bachelor of Science|
+|_.Angestrebter Abschluss:|	Master of Science|
+
+h2. Spezielles
+
+|_.Sprachen:|	Deutsch, Englisch (Fließend), Spanisch (Grundkenntnisse), Italienisch (Grundkenntnisse), Französisch (Grundkenntnisse)|
+|_.Programmiersprachen:|Java, Ruby, C++|
+|_.Gesang:|	Bass, Chor- und Soloerfahrung|
+|_.Computer-Skills:| 
+* Grafikbearbeitung, 2D- und 3D- Design
+* Webdesign (XHTML, XML, CSS)
+* Webprogrammierung (Ruby-On-Rails, MySQL )
+* Videobearbeitung (Grundkenntnisse)
+* Audiobearbeitung (Grundkenntnisse)
+|
+
+h2. Kontakt
+
+|_.eMail:|	public (bei) danielsenff punkt de|
+|_.Jabber/XMPP:|	dahie@jabjab.de (no email)|
+|_.Skype:|dahiesenff|
+|_.MSN-Messenger:|	thedahie@hotmail.com (no email)|
+|_.ICQ:| 103299815|
+|_.Telefon:| auf Anfrage|
+|_.Networks:| "Xing":https://www.xing.com/profile/Daniel_Senff, "Twitter":https://www.twitter.com/Dahie, "github":https://github.com/Dahie|
