@@ -4,23 +4,22 @@ in_menu: true
 ---
 h2. Laufende Projekte
 
-h3. Imageflow
+h3. ImageFlow
 
 !(cover){relocatable: /images/imageflow_cover.jpg}!
 
 h4. Knotenbasierte Benutzerschnittstelle für ImageJ
 
-Imageflow ist mein Bachelor-Projekt und ist die Implementation der Umsetzung einer knotenbasierten Benutzerführung für ImageJ. Dieses in Java-geschriebene Grafikprogramm dient als Grundlage für Grafikfilter und Verarbeitung. Imageflow macht es möglich durch visuelles Verbinden der Filter einen Workflow zu konstruieren und auf umständliches
-Macro-Scripting zu verzichten.
+ImageFlow ist mein Bachelor-Projekt und ist die Implementation einer knotenbasierten Benutzerführung für "ImageJ":http://rsb.info.nih.gov/ij/. Dieses in Java-geschriebene Grafikprogramm dient als Grundlage für Grafikfilter und -verarbeitung. ImageFlow macht es möglich durch visuelles Verbinden der Filter einen Workflow zu konstruieren. Damit bietet es eine Alternative zu umständlichen Macro-Scripts in ImageJ.
 
-* "Imageflow Development Blog":http://imageflow.danielsenff.de
-* "Imageflow bei Github":http://github.com/Dahie/imageflow
+* "ImageFlow Development Blog":http://imageflow.danielsenff.de
+* "ImageFlow bei Github":http://github.com/Dahie/imageflow
 
 h3. DDS-Utils
 
 h4. Plattformübergreifende DirectDrawSurface Textur-Utilities
 
-Die DDS-Utils sind eine Reihe von kleinen Textur-bezogenen Grafikprogrammen, die auf spezielle Anwendungsfälle im Games-Content bereich zugeschnitten sind. Badds dient dem Massenverarbeiten von Texturdateien, Dropps dient der einfachen Texturkonvertierung und Radds der Texturbetrachtung. Diese Tools sind Open Source und plattformübergreifend.
+Die DDS-Utils sind eine Reihe von kleinen Textur-bezogenen Grafikprogrammen, die auf spezielle Anwendungsfälle der Games-Content-Produktion zugeschnitten sind. Badds dient dem Massenverarbeiten von Texturdateien, Dropps dient der einfachen Texturkonvertierung und Radds der Texturbetrachtung. Diese Tools sind Open Source und plattformübergreifend.
 
 * "DDS-Utils bei Github":http://github.com/Dahie/DDS-Utils
 
@@ -30,13 +29,13 @@ h3. Cars & Tracks Development Project
 
 h4. Modifikationen für Rennsimulationen
 
-Das CTDP ist ein Team aus Rennsport- und Rennspielenthusiasten, die	für Rennspiele kostenlose Inhalte und Addons produzieren. Wir sind spezialisiert auf F1-Modifikationen für <a href="http://www.rfactor.net" title="Zur rFactor-Webseite">rFactor</a>. Unsere Mods gehören zu den beliebtesten und qualitativ hochwertistigsten der Rennspiele-Community mit mehreren 10.000 Downloads. Neben den kostenlosen Mods, haben wir mit den Machern von rFactor am Intel BMW 2007 und dem "SuperLeague Formula 2009 Game":http://www.slfgame.com zusammengearbeitet, für Simulatorvermietern("Bestsim Simulatoren":http://www.bestsim.de) individuelle Mods gemacht. Unsere Arbeit fand anklang in der Fachpresse, wie in auch in Spielemagazinen wie Gamestar oder PC Gamer oder bei TV-Berichterstattungen.
+Das CTDP ist ein Team aus Rennsport- und Rennspielenthusiasten, die	für Rennspiele kostenlose Inhalte und Addons produzieren. Wir sind spezialisiert auf F1-Modifikationen für "rFactor":http://www.rfactor.net. Unsere Mods gehören zu den beliebtesten und qualitativ hochwertistigsten der Rennspiele-Community mit mehreren 10.000 Downloads. Neben den kostenlosen Mods, haben wir mit den Machern von rFactor am Intel BMW 2007 und dem "SuperLeague Formula 2009 Game":http://www.slfgame.com zusammengearbeitet, für Simulatorvermietern("Bestsim Simulatoren":http://www.bestsim.de) individuelle Mods gemacht. Unsere Arbeit fand anklang in der Fachpresse, wie in auch in Spielemagazinen wie Gamestar oder PC Gamer oder bei TV-Berichterstattungen.
             
 Für mich war das CTDP die perfekte Plattform viele Dinge auszuprobieren.
 Die längste Zeit war ich 2D-Designer und habe über 25 Wagentexturen gemacht. Modelling hab ich mir ebenfalls angeschaut, aber nicht weiter verfolgt. Über die Zeit kamen Aufgaben wie die Webseite (Design und Texte), Administration der internen Tools und rudimentäres Projektmanagement dazu. Zuletzt konzentrierte ich mich auf die Entwicklung interner Tools für das Texturen-Management, woraus die DDS-Utils entstanden.
 
 * "Cars & Tracks Development Project":http://www.ctdp.net
-
+* "CTDP Development Blog":http://devblog.ctdp.net
 
 h2. Abgeschlossene Projekte
 
@@ -46,7 +45,7 @@ h3. HTW-Ideenmanagement der HTW-Berlin
 
 h4. Ideenmanagementlösung für die HTW-Berlin
 
-Dieses Projekt ist die Weiterführung eines Semesterprojektes meines Studiums. Ziel war die Entwicklung eines webbasierten Systems zur Ideenverwaltung. Diese Anwendung wurde zusammen mit dem Ideenmanagement unserer Fachhochschule entwickelt und wird heute dort auch angewendet. Die Plattform ist in Ruby-on-Rails umgesetzt worden. 
+Dieses Projekt war die Weiterführung eines Semesterprojektes meines Studiums. Ziel war die Entwicklung eines webbasierten Systems zur Ideenverwaltung. Diese Anwendung wurde zusammen mit dem Ideenmanagement unserer Fachhochschule entwickelt und wird heute dort auch angewendet. Die Plattform ist in Ruby-on-Rails umgesetzt worden. 
 
 * "HTW-Ideenmanagement":http://ideenmanagement.f4.htw-berlin.de
 
@@ -54,6 +53,6 @@ h3. Behind Closed Doors
 
 h4. Kurzfilmprojekt
 
-Ziel dieses Semesterprojektes war die Produktion eines Kurzfilms inklusive Drehbuch, Storyboard und der eigentlichen Produktion. In Zusammenarbeit mit David Fichtmüller entstand das Making Of eines fiktiven Filmes.
+Ziel dieses Semesterprojektes war die Produktion eines Kurzfilms inklusive Drehbuch, Storyboard und der eigentlichen Produktion. In Zusammenarbeit mit "David Fichtmüller":http://www.davidfichtmueller.de/ entstand das Making Of eines fiktiven Filmes.
 
 * "Behind Closed Doors":http://bcd.danielsenff.de/

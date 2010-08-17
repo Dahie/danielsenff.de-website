@@ -9,32 +9,32 @@ h3. danielsenff.de
 
 * Personal website
 * Relaunch 2010 using webgen
-* webgen, HTML5, SASS
+* webgen, HTML5, SASS/CSS3
 
 h3. "Cars & Tracks Development":http://www.ctdp.net
 
 * Website of Cars & Tracks Development Project
-* First Version launched in  2005, Relaunch 2007 using Typolight/Contao as CMS
-* TypoLight/Contao, XHTML 1.0 Strict, CSS
+* First version launched in  2005, relaunch 2007 using Typolight/Contao as CMS
 * Supervising accompanying media such as the Blog, Bugtracker and Forum
+* TypoLight/Contao, XHTML 1.0 Strict, CSS
 
 h3. "RaceCar":http://www.racecarf1.com
 
-* Internet-Auftritt of the fictous RaceCar-motorsports teams.
+* Website of the fictous RaceCar-motorsports teams.
 * Betreuung seit 2002, Relaunch 2010
-* webgen, XHTML 1.0 Strict, SASS
+* webgen, XHTML 1.0 Strict, SASS/CSS3
 
 h2. Conzept and Realization
 
 h3. "FHTW-Ideenmanagement":http://www.htw-berlin.de/ideenmanagement
 
-* Internet-Auftritt des idea management of the "HTW-Berlin":http://www.htw-berlin.de.
+* Web management of the idea management at the "HTW-Berlin":http://www.htw-berlin.de.
 * Summer semester 2007
 * Ruby-on-Rails, XHTML 1.0 Strict, CSS
 
 h3. "FHTW-Motorsport":http://motorsport.danielsenff.de
 
-* Internet-Auftritt of the Formula-Student motorsports team at the HTW-Berlin.
+* Website of the Formula-Student motorsports team at the HTW-Berlin.
 * 2005-2007
 * PHP, XHTML 1.0 Strict, CSS
 
@@ -48,20 +48,20 @@ h3. "dailyme.tv":http://m.dailyme.tv
 
 h3. "Komland GmbH":http://www.komland.it
 
-* Expert for Kommunalmaschinen in Südtirol.
-* 2. Quartal 2008
+* Expert for communal machines in South Tyrol.
+* 2. quarter 2008
 * Typo3, XHTML 1.0 Transitional, CSS
-* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+* Created during an internship at "Profi IT Lana":http://www.profi.it
 
 h3. "kuntnerfashion group":http://www.kuntnerfashion.com
 
-* Kleidung, Schuhe und Fashion in Lana, Südtirol.
-* 2. Quartal 2008
+* Clothing, shoes and fashion in Lana, South Tyrol.
+* 2. quarter 2008
 * Typo3, XHTML 1.0 Transitional, CSS
-* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+* Created during an internship at "Profi IT Lana":http://www.profi.it
 			
 h3. "Zimmerei/Hausbau Windegger":http://www.windegger.it/
 
-* 2. Quartal 2008: Typo3, XHTML 1.0 Transitional, CSS
-* Zimmerei und Hausbau in Lana, Südtirol.
-* Entstanden während eines Praktikums bei "Profi IT Lana":http://www.profi.it
+* 2. quarter 2008: Typo3, XHTML 1.0 Transitional, CSS
+* Carpenter and house construction in Lana, South Tyrol.
+* Created during an internship at "Profi IT Lana":http://www.profi.it
