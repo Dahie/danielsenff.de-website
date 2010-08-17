@@ -1,0 +1,59 @@
+---
+title: Projects
+in_menu: true
+---
+h2. Running projects
+
+h3. ImageFlow
+
+!(cover){relocatable: /images/imageflow_cover.jpg}!
+
+h4. Node-based user interface for ImageJ
+
+ImageFlow is my Bachelor-project and is the implementation of a node-based user interface for "ImageJ":http://rsb.info.nih.gov/ij/. This graphics software was written in Java served as the basis for graphics filter and processing. ImageFlow enables you to construct a processing workflow by visually connecting filters. This is an easy alternative to the script-based Macro-interface of ImageJ.
+
+* "ImageFlow Development Blog":http://imageflow.danielsenff.de
+* "ImageFlow at Github":http://github.com/Dahie/imageflow
+
+h3. DDS-Utils
+
+h4. Platform-independent DirectDrawSurface Texture-Utilities
+
+The DDS-Utils are a number of smal texture-related graphic applications, which are designed for special use-cases in the Games-content-production process. Badds allows to batch process many texture files at once, Dropps is an easy tool for texture conversion and Radds is a for review and previewing textures. These tools are Open Source and platform-independent.
+
+* "DDS-Utils at Github":http://github.com/Dahie/DDS-Utils
+
+h3. Cars & Tracks Development Project
+
+!(cover){relocatable: /images/ctdp_cover.jpg}!
+
+h4. Modifications for Racing simulations
+
+CTDP is a team of racing and motorsports enthusiasts who create free and non-commercial contents and addos for racing games. We specialized on F1-Modifications for "rFactor":http://www.rfactor.net. Our mods are regarded very high-quality and are among the most-popular within the community.
+Next to the free addons, we collaborated with the producers of rFactor on the BMW Sauber 2007 and created the contents of the "SuperLeague Formula 2009 Game":http://www.slfgame.com. We also created individual mods for the Event simulators ("Bestsim Simulatoren":http://www.bestsim.de). Our work appealed to press, we were featured in game magazines such as Gamestar or PC Gamer or during TV-coverages.
+
+Personally, CTDP was the perfect platform to try things.
+For the longest time I was active as 2D artist and I created more than 25 car textures. I learned some modelling basics, but did not pursue it. Over time more I took on more tasks such as the website (design, texts), administration of internal tools and rudimentary project management. In the past year I concentrated on the development of internal tools for texture-management from which my DDS-Utils were born.
+
+* "Cars & Tracks Development Project":http://www.ctdp.net
+* "CTDP Development Blog":http://devblog.ctdp.net
+
+h2. Finished Projekte
+
+h3. HTW-Idea management at the HTW-Berlin
+
+!(cover){relocatable: /images/openear_cover.jpg}!
+
+h4. Idea management system for the HTW-Berlin
+
+This project was a continuation of a semester project from my studies. The objectiv was the development of a web-based system for managing ideas. The application was developed in cooperation with the idea management of the University of applied Science in Berlin. It is in used to this day. The platform was implemented in Ruby-on-Rails.
+
+* "HTW-Ideenmanagement":http://ideenmanagement.f4.htw-berlin.de
+
+h3. Behind Closed Doors
+
+h4. Short movie project
+
+The task was the production of a short movie including script, story-board and post-production. In cooperation with "David Fichtmüller":http://www.davidfichtmueller.de/ originated a Making Of of a fictious movie.
+
+* "Behind Closed Doors":http://bcd.danielsenff.de/

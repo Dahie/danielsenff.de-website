@@ -1,0 +1,9 @@
+--- name:alcn
+
+imageflow/:
+  in_menu: false
+  sort_info: 2
+  
+ddsutils/:
+  in_menu: false
+  sort_info: 3
