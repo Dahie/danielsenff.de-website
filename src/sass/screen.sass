@@ -9,6 +9,11 @@ $beige: #FDCB9E
 $darkgrey: #1A1A1A
 $brown: #E28B53
 
+=transitions
+  -webkit-transition: all 200ms ease-out
+  -moz-transition: all 200ms ease-out
+  -o-transition: all 200ms ease-out
+
 body
   margin: 0
   padding: 0
@@ -24,7 +29,6 @@ body
     background: transparent url(../images/header_cropped.jpg) no-repeat
     height: 180px
     overflow: hidden
-    padding: 5px
     font-family: Arial, Helvetica, sans-serif
     font-size: 1.4em
     /*background-color: $darkgrey
@@ -44,31 +48,38 @@ body
     nav
       display: block
       width: 100%
-      -webkit-transform: translate(12em,-3em) rotate(-45deg) 
-      -moz-transform: translate(16em,-3em) rotate(-45deg) 
-      -o-transform: translate(12em,-3em) rotate(-45deg)
-      transform: translate(12em,-3em) rotate(-45deg)
+      float: right
+      
+      border-top: 13px solid black
+      width: 35%
+      padding-right: 15%
       ul
         list-style: none
+        background: $brown
+        border-right: 13px solid #000
         margin: 0
         padding: 0
-        border-bottom: 5px solid #000
+        overflow: auto
         li
-          :text-align center
-          background-color: $beige
+          text-align: center
+          display: inline
+          float: left
+          margin: 3px 6px
+          border-left: 2px solid #000
+          text-transform: lowercase
+          &.webgen-menu-item-selected
+            background-color: black
+            border-left: 2px solid #fff
           a, span
             display: block
-            height: 32px
-            height: 24px
+            color: white
             text-decoration: none
-            border-top: 5px solid #000
-            color: black
-            padding: 8px 0 0 10px 
+            padding: 3px 6px
+            +transitions
             &:link, &:visited 
               display: block
               background-color: $brown
-              color: white
-              &:hover 
+              &:hover
                 color: #000
                 background-color: #FFF
                 
@@ -88,7 +99,18 @@ section#content
     width: 800px
     margin: 12px auto
   
-  
+    nav#submenu
+      float: right
+      padding-right: 12px
+      ul
+        padding: 0
+        margin: 0
+        list-style: none
+        width: 200px
+        li
+          border-left: 2px solid black
+          padding: 3px 6px
+          margin: 3px
   
   table
     th
@@ -107,13 +129,14 @@ footer
   clear: both
   /*background-color: $darkgrey
   color: white
+  text-transform: lowercase
   margin-top: 56px
   background: white url(../images/footer3.png) no-repeat left bottom
   overflow: auto
   h3
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
   a
-    color: $beige
+    color: $brown
   .inner
     width: 800px
     margin: 0px auto
@@ -121,9 +144,9 @@ footer
     width: 13em
     float: left
   .copyright
-    border-top: 1px solid $brown
     clear: both
-    text-align: left
+    font-weight: bold
+    text-align: center
     color: $brown
 
 
