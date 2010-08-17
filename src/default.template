@@ -39,10 +39,10 @@
 		
     <section id="content">
 			<h1><span>{title:}</span></h1>
-			<nav id="submenu">
-				{menu: {start_level: 2, max_levels: 2, used_nodes: files}}
-			</nav>  
 			<div class="inner">
+			  <nav id="submenu">
+					{menu: {start_level: 2, max_levels: 2, used_nodes: files}}
+				</nav>  
 				<webgen:block name="content" />
 			</div>
     </section>

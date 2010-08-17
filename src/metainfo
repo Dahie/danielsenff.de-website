@@ -2,8 +2,10 @@
 
 imageflow/:
   in_menu: false
-  sort_info: 2
+  sort_info: 3
+  title: ImageFlow
   
 ddsutils/:
   in_menu: false
-  sort_info: 3
+  sort_info: 4
+  title: DDSUtils
