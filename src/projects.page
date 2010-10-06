@@ -18,6 +18,8 @@ ImageFlow ist mein Bachelor-Projekt und ist die Implementation einer knotenbasie
 
 h3. DDS-Utils
 
+!(cover){relocatable: /images/ddsutils_cover.jpg}!
+
 h4. Plattformübergreifende DirectDrawSurface Textur-Utilities
 
 Die DDS-Utils sind eine Reihe von kleinen Textur-bezogenen Grafikprogrammen, die auf spezielle Anwendungsfälle der Games-Content-Produktion zugeschnitten sind. Badds dient dem Massenverarbeiten von Texturdateien, Dropps dient der einfachen Texturkonvertierung und Radds der Texturbetrachtung. Diese Tools sind Open Source und plattformübergreifend.
