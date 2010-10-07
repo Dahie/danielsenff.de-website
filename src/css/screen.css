@@ -25,7 +25,7 @@ body header {
 }
 /* line 37, ../sass/screen.sass */
 body header h1 {
-  padding-left: 330px;
+  padding-left: 30px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -36,7 +36,7 @@ body header h2 {
 /* line 44, ../sass/screen.sass */
 body header #languages {
   font-size: 1.6em;
-  padding-left: 330px;
+  padding-left: 30px;
 }
 /* line 48, ../sass/screen.sass */
 body header nav {
