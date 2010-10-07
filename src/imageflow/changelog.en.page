@@ -2,10 +2,13 @@
 title: Änderungen
 in_menu: true
 sort_info: 3
+routed_title: ImageFlow
 ---
 
-1.2 (released on 26.08.2009)
-
+1.2 (released on xx.08.2009)
+* Improved context menu bahaviour
+* XML read from within the application jar
+* Many bugfixes
 
 
 1.1 (released on 26.08.2009) 
