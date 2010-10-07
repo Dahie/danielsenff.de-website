@@ -40,9 +40,9 @@ h3. "FHTW-Motorsport":http://motorsport.danielsenff.de
 
 h2. Umsetzung
 
-h3. "dailyme.tv":http://m.dailyme.tv
+h3. "dailyme":http://m.dailyme.de
 
-* Kataloganwendung als Teil des mobilen Video-Service von dailyme.tv.
+* Webkatalog als Teil des mobilen Video-Service "dailyme":http://www.dailyme.de von "Selocon":http://www.selocon.com.
 * 2009-heute
 * Ruby-on-Rails, HAML, SASS
 
