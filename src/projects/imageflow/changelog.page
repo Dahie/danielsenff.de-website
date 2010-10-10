@@ -5,11 +5,11 @@ sort_info: 3
 routed_title: ImageFlow
 ---
 
-1.2 (released on xx.08.2009)
-* Improved context menu bahaviour
+1.2 (released on 26.10.2010)
+* Exit handler when closing ImageFlow and ImageJ when running as plugin
+* Improved workspace and context menu bahaviour
 * XML read from within the application jar
 * Many bugfixes
-
 
 1.1 (released on 26.08.2009) 
 * Serious security fixes

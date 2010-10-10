@@ -1,7 +1,8 @@
 ---
 title: Projekte
-in_menu: true
+in_menu: false
 sort_info: 2
+routed_title: Projekte
 ---
 h2. Laufende Projekte
 

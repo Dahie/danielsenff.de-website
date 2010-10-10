@@ -33,7 +33,7 @@
       </div>
 			
 			<nav id="menu">
-				{menu: {max_levels: 1, used_nodes: files}}
+				{menu: {max_levels: 2, used_nodes: files}}
 			</nav>  
 		</header>
 		
@@ -41,7 +41,7 @@
 			<h1><span>{title:}</span></h1>
 			<div class="inner">
 			  <nav id="submenu">
-					{menu: {start_level: 2, max_levels: 2, used_nodes: files}}
+					{menu: {start_level: 3, max_levels: 3, used_nodes: files}}
 				</nav>  
 				<webgen:block name="content" />
 			</div>

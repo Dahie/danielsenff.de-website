@@ -46,45 +46,53 @@ body
       padding-left: 30px
     
     nav
-      display: block
-      width: 100%
-      float: right
-      
-      border-top: 13px solid black
-      width: 35%
-      padding-right: 15%
+      position: absolute
+      left: 340px
+      top: 16px
       ul
         list-style: none
-        background: $brown
-        border-right: 13px solid #000
         margin: 0
         padding: 0
         overflow: auto
         li
-          text-align: center
-          display: inline
-          float: left
-          margin: 3px 6px
-          border-left: 2px solid #000
           text-transform: lowercase
+          clear: both
+          overflow: hidden
           &.webgen-menu-item-selected
-            background-color: black
-            border-left: 2px solid #fff
+            span
+              border-left: 2px solid #fff
+          &.webgen-menu-submenu
+            a, span
+              border-right: 2px solid #fff
+            span
+              color: white
           a, span
             display: block
-            color: white
-            text-decoration: none
+            float: left
+            color: $brown
             padding: 3px 6px
+            text-decoration: none
             +transitions
-            &:link, &:visited 
-              display: block
-              background-color: $brown
-              &:hover
-                color: #000
-                background-color: #FFF
+          ul
+            float: left
+            li
+              float: left
+              clear: none
+              padding: 0px
+              overflow: hidden
+              a
+                display: inline
+              &.webgen-menu-submenu
+                a
+                  border-right: none
+                span
+                  border-right: none
+                  color: white
                 
                 
 section#content
+  display: block
+  min-height: 500px
   h1
     background: transparent url(../images/headline.png) no-repeat center left
     text-align: right
@@ -102,6 +110,7 @@ section#content
     nav#submenu
       float: right
       padding-right: 12px
+      background-color: white
       ul
         padding: 0
         margin: 0

@@ -11,25 +11,23 @@ ImageFlow 1.1
 
 h2. Quellcode
 
-The source can be accessed through git.
-The "repository":http://github.com/Dahie/imageflow is available at github.
+Der Source Code kann öffentlich mit git geladen werden.<br>
+Das "Projektarchiv":http://github.com/Dahie/imageflow ist verfügbar bei github.
 
-h2. Changes 
+h2. Änderungen
 
 "List of changes (all versions)":changelog.html 
 
-h2. Archive 
+h2. Archiv
 
 * ImageFlow 1.1
 * ImageFlow 1.0
 * ImageFlow 0.9 Beta
 
-If you like ImageFlow, please consider donating. 
-
-h2. Requirements 
+h2. Anforderungen
 
 Java Runtime Environment 6<br>
-Tested on Windows, Linux and Mac OS X.
+Tested on Windows, Gnu/Linux and Mac OS X.
 
 h2. License 
 
