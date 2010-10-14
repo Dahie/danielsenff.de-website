@@ -131,15 +131,12 @@ namespace :generate do
 
   desc "Generate thumbnails for gallery pictures"
   task :thumbnails do
-    files = FileList.new('out/cars/**/*.jpg') do |fl|
+    files = FileList.new('out/projects/imageflow/images/**/*.jpg') do |fl|
       fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
     end
-    files.add FileList.new('out/drivers/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
-    files.add FileList.new('out/news/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
+    #files.add FileList.new('out/drivers/**/*.jpg') do |fl|
+    #  fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
+    #end
     puts files
     create_thumbnails files
   end

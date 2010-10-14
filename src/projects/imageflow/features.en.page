@@ -1,0 +1,9 @@
+---
+title: Features
+in_menu: false
+sort_info: 2
+routed_title: ImageFlow
+---
+
+* Integration with ImageJ
+* Improved workspace and context menu bahaviour

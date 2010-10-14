@@ -160,7 +160,7 @@ section#content img.cover {
 }
 /* line 133, ../sass/screen.sass */
 section#content ul, section#content ol {
-  clear: both;
+  clear: left;
 }
 
 /* line 136, ../sass/screen.sass */

@@ -5,26 +5,25 @@ sort_info: 3
 routed_title: ImageFlow
 ---
 
-1.2 (released on 26.10.2010)
+h2. 1.2 (In Arbeit)
 * Exit handler when closing ImageFlow and ImageJ when running as plugin
-* Improved workspace and context menu bahaviour
-* XML read from within the application jar
-* Many bugfixes
+* Verbessertes Workspace- und Kontextmenüverhalten
+* Unit-XML werden aus der application-jar gelesen, dies ermöglicht die Alles-in-Eins-jar
+* Viele Fehlerkorrekturen
 
-1.1 (released on 26.08.2009) 
-* Serious security fixes
-* Introduces new DataTypes in the workflow
-* Allows mathmatical calculations performed in the workflow
-* Much more of ImageJ functionality integrated as selectabled nodes
-* Adds grouping of nodes
-* Aligning nodes to a grid
-* Other improvements
+h2. 1.1 (Veröffentlicht an 26.08.2009)
+* Wichtige Sicherheitskorrekturen
+* Einführung von DatenTypen in den Workflow
+* Ermöglicht das Ausführen von mathematischen Berechnungen im workflow.
+* Mehr ImageJ-Funktionen als Units verfügbar
+* Gruppierungen von Units
+* Automatische Ausrichtung an einem Grid für Units
+* Viele andere Verbesserungen
 
-1.0 (released on 19.05.2009) 
-* Reworked Workflow-XML
-* Code cleanup
-* Fixed many stability issues
+h2. 1.0 (Veröffentlicht an 19.05.2009) 
+* Übrarbeitete Workflow-XML
+* Code Säuberungen und Fehlerkorrekturen
+* Viele Stabilitätsprobleme behoben
 
-0.9 (released on 5.3.2009) 
-* First release
-* Beta release
+h2. 0.9 (Veröffentlicht an 5.3.2009)
+* Erste Veröffentlichung als Beta Version

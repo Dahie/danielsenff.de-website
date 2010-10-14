@@ -7,22 +7,22 @@ routed_title: ImageFlow
 
 h2. Aktuell
 
-ImageFlow 1.1
+"ImageFlow 1.1":http://imageflow.danielsenff.de/imagej/imageflow-11.zip
 
 h2. Quellcode
 
-Der Source Code kann öffentlich mit git geladen werden.<br>
+Der Quellcode kann öffentlich mit git geladen werden.<br>
 Das "Projektarchiv":http://github.com/Dahie/imageflow ist verfügbar bei github.
 
 h2. Änderungen
 
-"List of changes (all versions)":changelog.html 
+"Liste aller Änderungen (Alle Versionen)":changelog.html 
 
 h2. Archiv
 
-* ImageFlow 1.1
-* ImageFlow 1.0
-* ImageFlow 0.9 Beta
+* "ImageFlow 1.1":http://imageflow.danielsenff.de/imagej/imageflow-11.zip
+* "ImageFlow 1.0":http://imageflow.danielsenff.de/imagej/imageflow-10.zip
+* "ImageFlow 0.9 Beta":http://imageflow.danielsenff.de/imagej/Imageflow.zip
 
 h2. Anforderungen
 
@@ -31,15 +31,11 @@ Tested on Windows, Gnu/Linux and Mac OS X.
 
 h2. License 
 
-Copyright (c) Daniel Senff<br>
-All rights reserved.
+Imageflow ist ein Programm zur Erstellung von ImageJ Makro-Code mittels Visueller Programmierung<br>
+Copyright (C) 2008-2010  Daniel Senff
 
-Redistribution and use in source and binary forms, with or without modification
-are permitted provided that the following conditions are met:
-1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
+Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 2 der Lizenz oder (nach Ihrer Option) jeder späteren Version. 
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License. 
+
+Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben. Falls nicht, besuchen sie "http://www.gnu.org/licenses/":http://www.gnu.org/licenses/.
