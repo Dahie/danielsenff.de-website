@@ -104,66 +104,76 @@ body header nav ul li ul li.webgen-menu-submenu span {
   border-right: none;
   color: white;
 }
+/* line 92, ../sass/screen.sass */
+body header nav ul li ul li.webgen-menu-submenu-inhierarchy a {
+  border-right: none;
+  color: white;
+}
+/* line 95, ../sass/screen.sass */
+body header nav ul li ul li.webgen-menu-submenu-inhierarchy span {
+  border-right: none;
+  color: white;
+}
 
-/* line 93, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 section#content {
   display: block;
   min-height: 500px;
 }
-/* line 96, ../sass/screen.sass */
+/* line 103, ../sass/screen.sass */
 section#content h1 {
   background: transparent url(../images/headline.png) no-repeat center left;
   text-align: right;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-/* line 100, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 section#content h1 span {
   display: block;
   width: 800px;
   margin: 0px auto;
 }
-/* line 105, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 section#content .inner {
   display: block;
   width: 800px;
   margin: 12px auto;
 }
-/* line 110, ../sass/screen.sass */
+/* line 117, ../sass/screen.sass */
 section#content .inner nav#submenu {
   float: right;
   padding-right: 12px;
   background-color: white;
 }
-/* line 114, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 section#content .inner nav#submenu ul {
   padding: 0;
   margin: 0;
   list-style: none;
   width: 200px;
 }
-/* line 119, ../sass/screen.sass */
+/* line 126, ../sass/screen.sass */
 section#content .inner nav#submenu ul li {
   border-left: 2px solid black;
   padding: 3px 6px;
   margin: 3px;
 }
-/* line 125, ../sass/screen.sass */
+/* line 132, ../sass/screen.sass */
 section#content table th {
   text-align: left;
   padding-right: 12px;
 }
-/* line 129, ../sass/screen.sass */
+/* line 136, ../sass/screen.sass */
 section#content img.cover {
   border: 1px solid #1a1a1a;
   float: left;
   margin-right: 12px;
 }
-/* line 133, ../sass/screen.sass */
+/* line 140, ../sass/screen.sass */
 section#content ul, section#content ol {
   clear: left;
 }
 
-/* line 136, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 footer {
   display: block;
   clear: both;
@@ -174,25 +184,25 @@ footer {
   background: white url(../images/footer3.png) no-repeat left bottom;
   overflow: auto;
 }
-/* line 145, ../sass/screen.sass */
+/* line 152, ../sass/screen.sass */
 footer h3 {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-/* line 147, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 footer a {
   color: #e28b53;
 }
-/* line 149, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 footer .inner {
   width: 800px;
   margin: 0px auto;
 }
-/* line 152, ../sass/screen.sass */
+/* line 159, ../sass/screen.sass */
 footer .column {
   width: 13em;
   float: left;
 }
-/* line 155, ../sass/screen.sass */
+/* line 162, ../sass/screen.sass */
 footer .copyright {
   clear: both;
   font-weight: bold;
@@ -200,7 +210,7 @@ footer .copyright {
   color: #e28b53;
 }
 
-/* line 162, ../sass/screen.sass */
+/* line 169, ../sass/screen.sass */
 a {
   text-decoration: none;
   color: #e28b53;
