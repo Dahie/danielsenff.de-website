@@ -1,16 +1,19 @@
 ---
 title: Veröffentlichungen
-in_menu: false
+in_menu: true
 ---
-h2. Paper
+h2. Veröffentlichungen
 
-h3. Flowbased blablabla yaddayadda yay
+h3. ImageFlow Workshop at ImageJ Conference 2010
 
-h3 ImageFlow Workshop at ImageJConf 2010
+28. October 2010, 60 Minutes workshop in collaboration with Prof. Kai-Uwe Barthel
+about the visual macro programming tool ImageFlow for ImageJ.
 
-h3 28. October 2010 at ImageJConf 2010
+The first half of the workshop gave a short summary on the project and served as
+an introduction into the creation of workflows using ImageFlow. The second half
+delved into some technical details. It explained how ImageJ's original
+functionalities are described in XML-Unit-Definitions and showed the first steps
+on how to create your own customized processing nodes.
 
-
-
-
-
+* "Workshop @ ImageJConf 2010":http://imagejconf.tudor.lu/program/doku.php?id=:program:workshops:barthel:start
+* Download Workshop Material
