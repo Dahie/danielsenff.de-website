@@ -9,6 +9,10 @@ h2. 1.2 (In Arbeit)
 * Exit handler when closing ImageFlow and ImageJ when running as plugin
 * Verbessertes Workspace- und Kontextmenüverhalten
 * Unit-XML werden aus der application-jar gelesen, dies ermöglicht die Alles-in-Eins-jar
+* Behebt Problem, wenn eine Unit mehr als 9 Parameter einer Art hat
+* Behebt ein Problem, das Enumeration-Parameter zu String-Parameter konvertierte wenn eine Unit kopiert wird
+* Fügt Measurement, Math und Sample Image units hinzu
+* Behebt Fehler in verschiedenen Verarbeitungs-Units
 * Viele Fehlerkorrekturen
 
 h2. 1.1 (Veröffentlicht an 26.08.2009)
