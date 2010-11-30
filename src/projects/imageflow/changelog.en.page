@@ -5,7 +5,7 @@ sort_info: 3
 routed_title: ImageFlow
 ---
 
-h2. 1.2 (work in progress)
+h2. 1.2 (released on 11/30/2010)
 * Exit handler when closing ImageFlow and ImageJ when running as plugin
 * Improved workspace and context menu bahaviour
 * Unit-XML read from within the application jar and optionally from hard disc, this allows for the all-in-one-jar
