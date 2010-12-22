@@ -1,0 +1,16 @@
+---
+title: Veröffentlichungen
+in_menu: true
+---
+h2. Veröffentlichungen
+
+h3. ImageFlow Workshop auf der ImageJ Konferenz 2010
+
+28. Oktober 2010, 60 Minuten Workshop in Zusammenarbeit mit Pro. Kai-Uwe Barthel über das visuelle Makro-Programmierungs Tool "ImageFlow":/projects/imageflow/index.html für ImageJ.
+
+Die erste Hälfte des Workshop gab eine kurze Zusammenfassung des Projekts und diente als Einstieg in die Erzeugung von Workflows mit ImageFlow. Die Zweite Hälfte ging auf technische Details ein. Es wurde erklärt wie ImageJ's originale Funktionalität mittels XML-Unit-Definitionen beschrieben wird und zeigte die ersten Schritte um eigene benutzerdefinierte Verarbeitungsknoten zu erstellen.
+
+* "Workshop @ ImageJConf 2010":http://imagejconf.tudor.lu/program/doku.php?id=:program:workshops:barthel:start
+* "Workshop Material herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Materials.zip
+* "Präsentation (en)  herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Presentation.pdf
+* "Dokumentation (en)  herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Precedings.pdf
