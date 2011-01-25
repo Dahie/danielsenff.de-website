@@ -13,7 +13,8 @@
     <meta name="keywords" content="Daniel, Dahie, Senff, Daniel Senff, Java, Rails, HTML, CTDP, Ruby, Portfolio, Profile, Steckbrief, IMI, HTW-Berlin, FHTW, ImageFlow, DDSUtils, ImageJ" />
     <meta name="author" content="Daniel Senff" />
     <meta name="generator" content="webgen - http://webgen.rubyforge.org" />
-		<link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
+    <link type="text/plain" rel="author" href="http://www.danielsenff.de/humans.txt" />
+    <link rel="shortcut icon" href="{relocatable: /images/favicon.ico}" />
     <link href="{relocatable: /css/screen.css}" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="{relocatable: /css/print.css}" media="print" rel="stylesheet" type="text/css" />
     <!--[if IE]>
