@@ -5,6 +5,9 @@ sort_info: 3
 routed_title: ImageFlow
 ---
 
+h2. 1.3 (In Arbeit)
+* Workflows ausführen ohne das ImageJ-Hauptfenster zu öffnen.
+
 h2. 1.2 (Veröffentlicht am 30.11.2010)
 * Exit handler when closing ImageFlow and ImageJ when running as plugin
 * Verbessertes Workspace- und Kontextmenüverhalten
