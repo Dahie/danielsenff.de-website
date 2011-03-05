@@ -6,7 +6,7 @@ h2. Veröffentlichungen
 
 h3. ImageFlow Workshop auf der ImageJ Konferenz 2010
 
-28. Oktober 2010, 60 Minuten Workshop in Zusammenarbeit mit Pro. Kai-Uwe Barthel über das visuelle Makro-Programmierungs Tool "ImageFlow":/projects/imageflow/index.html für ImageJ.
+28. Oktober 2010, 60 Minuten Workshop in Zusammenarbeit mit Prof. Kai-Uwe Barthel über das visuelle Makro-Programmierungs Tool "ImageFlow":/projects/imageflow/index.html für ImageJ.
 
 Die erste Hälfte des Workshop gab eine kurze Zusammenfassung des Projekts und diente als Einstieg in die Erzeugung von Workflows mit ImageFlow. Die Zweite Hälfte ging auf technische Details ein. Es wurde erklärt wie ImageJ's originale Funktionalität mittels XML-Unit-Definitionen beschrieben wird und zeigte die ersten Schritte um eigene benutzerdefinierte Verarbeitungsknoten zu erstellen.
 
@@ -14,3 +14,18 @@ Die erste Hälfte des Workshop gab eine kurze Zusammenfassung des Projekts und d
 * "Workshop Material herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Materials.zip
 * "Präsentation (en)  herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Presentation.ppt
 * "Dokumentation (en)  herunterladen":/projects/imageflow/ImageFlow-Workshop2010-Precedings.pdf
+
+h2. Studium
+
+h3. Visual Programming of image processing algorithms using ImageJ
+
+März 2009, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ.
+
+
+h3. Ursprünge der Wissensvermittlung durch Infografiken
+
+September 2010, 13 Seiten Facharbeit über Otto Neurath, seine Bestrebungen der demokratisierung von Wissensvermittlung mittels verständlicher Infografiken und ihre Bedeutung heute.
+
+h3. Cryptography in Instant Messaging
+
+September 2009, 7 Seiten Facharbeit, Instant Messaging ist heute ein weit verbreitetes Kommunikationsformat. In dieser Arbeit werden kurz die Sicherheitssysteme der geläufigsten Protokolle vorgestellt.
