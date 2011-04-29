@@ -6,7 +6,15 @@ routed_title: ImageFlow
 ---
 
 h2. 1.3 (work in progress)
-* Execute workflows without opening the ImageJ main window.
+* New Dashboard and Widgets feature: Widgets can preview results and a comfortable access to the properties of units
+* Execute workflows without opening the ImageJ main window. Live update for Preview-Widgets
+* Updated and improved Unit-Properties-Dialog
+* Update Unit-XML specification for Unit-Parameters allowing to describe with which GUI-Widget the parameter is to be displayed in the User Interface
+* Adds option to execute workflows without opening a visible ImageJ instance
+* Add units to the workflow by drag-n-drop
+* New unit to import images from opened ImageJ windows
+* Many bugfixes
+
 
 h2. 1.2 (released on 11/30/2010)
 * Exit handler when closing ImageFlow and ImageJ when running as plugin

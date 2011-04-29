@@ -6,10 +6,18 @@ routed_title: ImageFlow
 ---
 
 h2. 1.3 (In Arbeit)
-* Workflows ausführen ohne das ImageJ-Hauptfenster zu öffnen.
+* Neues Dashboard- und Widgets-Feature: Widget können eine Vorschau für Resultate und komfortableren Zugriff auf die Eigenschaften einer Unit geben
+* Workflows ausführen ohne das ImageJ-Hauptfenster zu öffnen, Live-Aktualisierung in Preview-Widgets
+* Überarbeiter und verbesserter Unit-Eigenschaftendialog
+* Aktualisierung der Unit-XML-Spezifikation für Unit-Parameter, die erlaubt zu definieren mit welchen GUI-Widgets der Parameter im User-Interface angezeigt werden soll
+* Fügt eine Option zum Ausführen von Arbeitsabläufen ohne das sich eine sichtbare ImageJ Instanz öffnet
+* Füge Units auf den Workspace mittels Drag-n-Drop
+* Neue Unit um in ImageJ geöffnete Bilder im Workflow zu benutzen
+* Viele Fehlerkorrekturen
+
 
 h2. 1.2 (Veröffentlicht am 30.11.2010)
-* Exit handler when closing ImageFlow and ImageJ when running as plugin
+* Bessere Verarbeitung beim Beenden von ImageFlow und ImageJ, wenn ImageFlow als Plugin ausgeführt wird
 * Verbessertes Workspace- und Kontextmenüverhalten
 * Unit-XML werden aus der application-jar gelesen, dies ermöglicht die Alles-in-Eins-jar
 * Behebt Problem, wenn eine Unit mehr als 9 Parameter einer Art hat
