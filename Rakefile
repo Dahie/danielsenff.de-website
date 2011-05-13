@@ -122,22 +122,23 @@ end
 
 desc "Deletes existing generated data and delets the cache."
 task :cleanup do
-  
   FileUtils.rm_r 'out' if File.exists? 'out'
   FileUtils.rm 'webgen.cache' if File.exists? 'webgen.cache'
 end
 
 namespace :generate do
 
+  # product of paths and extensions
+  def images_list paths, extensions
+    paths.product(extensions).map { |tupel| tupel.join }
+  end
+
   desc "Generate thumbnails for gallery pictures"
   task :thumbnails do
-    files = FileList.new('out/projects/imageflow/images/**/*.jpg') do |fl|
-      fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    end
-    #files.add FileList.new('out/drivers/**/*.jpg') do |fl|
-    #  fl.include("*.jpg", "*.jpeg", "*.png", "*.gif")
-    #end
-    puts files
+    supported_image_types = %w( **/*.jpg **/*.jpeg **/*.JPG **/*.png **/*.PNG **/*.gif )
+    gallery_folders = %w( out/projects/images )
+
+    files = FileList.new images_list(gallery_folders, supported_image_types)
     create_thumbnails files
   end
   

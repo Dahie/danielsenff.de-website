@@ -32,5 +32,5 @@ website.lang: de
 ## Adding some extensions to the copy source handler.
 patterns:
   Copy:
-    add: [**/*.pdf, **/*.djvu]
+    add: [**/*.pdf, **/*.txt, **/*.djvu, **/*.zip, **/*.ppt]
     del: [**/*.sass, **/*.rb]    
