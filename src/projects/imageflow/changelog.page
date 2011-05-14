@@ -13,6 +13,7 @@ h2. 1.3 (In Arbeit)
 * Fügt eine Option zum Ausführen von Arbeitsabläufen ohne das sich eine sichtbare ImageJ Instanz öffnet
 * Füge Units auf den Workspace mittels Drag-n-Drop
 * Neue Unit um in ImageJ geöffnete Bilder im Workflow zu benutzen
+* Verbesserte Erklär-Willkommensgrafik auf dem lehren Workspace
 * Viele Fehlerkorrekturen
 
 
