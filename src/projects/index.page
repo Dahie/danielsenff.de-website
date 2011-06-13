@@ -6,6 +6,14 @@ routed_title: Projekte
 ---
 h2. Laufende Projekte
 
+h3. caramelize
+
+Caramelize ist ein flexibles und modulares Kommandozeilenprogramm um durch einfache
+Konfigurationen Daten aus nicht mehr unterstützter Wiki-Software exportieren und
+archivieren zu können.
+
+* "caramelize bei Github":http://github.com/Dahie/caramelize
+
 h3. ImageFlow
 
 !(cover){relocatable: /images/imageflow_cover.jpg}!

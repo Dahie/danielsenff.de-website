@@ -36,7 +36,7 @@ Tested on Windows, Gnu/Linux and Mac OS X.
 h2. License 
 
 Imageflow is a tool for ImageJ macro code generation using Visual Programming<br>
-Copyright (C) 2008-2010  Daniel Senff
+Copyright (C) 2008-2011 Daniel Senff
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
 

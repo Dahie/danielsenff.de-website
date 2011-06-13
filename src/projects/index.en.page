@@ -6,6 +6,14 @@ routed_title: Projects
 ---
 h2. Running projects
 
+h3. caramelize
+
+Caramelize is a compact and flexible wiki converter. It is intended for easily creating export of otherwise rare supported legacy wikis. With caramelize you can create your own export configurations and transfer your data into a git-based gollum-wiki retaing all your history.
+
+In the future more target wiki system may be added. For the moment export is supported for WikkaWiki and Redmine-Wiki.
+
+* "caramelize bei Github":http://github.com/Dahie/caramelize
+
 h3. ImageFlow
 
 !(cover){relocatable: /images/imageflow_cover.jpg}!
