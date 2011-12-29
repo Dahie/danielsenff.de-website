@@ -31,6 +31,6 @@ Download the ImageFlow-archive and extract it somewhere on your hard drive. Star
 
 h3. … as ImageJ-plugin
 
-To start ImageFlow from ImageJ you have to move "Imageflow"-folder into ImageJ's plugin directory. After restarting ImageJ you will find a menu-item in the Plugins-Menu to start the plugin.
+To start ImageFlow from within ImageJ you have to move "Imageflow"-folder into ImageJ's plugin directory. After restarting ImageJ you will find a menu-item in the Plugins-Menu to start the plugin.
 
 <%= gallery_image('images/imageflow_imagej.jpg') %>
