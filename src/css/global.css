@@ -1,0 +1,174 @@
+/*Goldilocks Approach to Responsive Web Design Boilerplate
+ *
+ *Author: Design by Front - @designbyfront
+ *Version: 0.1
+ *URL: http://www.goldilocksapproach.com
+ *----------------------------------------------------------------------------------------
+ *
+ *CONTENTS - GLOBAL.CSS
+ *-----------------------------------------
+ *1. RESET
+ *2. ROOT
+ *3. CORE TYPOGRAPHY
+ *4. LINKS
+ *5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+ *6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+ *7. BROWSER AND NON-SEMANTIC STYLING
+ *
+ *CONTENTS - LAYOUT.CSS
+ *-----------------------------------------
+ *8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+ *9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear) */
+/* 1. RESET
+ *---------------------------------------------------------------------------------------- */
+/* line 27, ../sass/global.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 35, ../sass/global.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* 2. ROOT
+ *---------------------------------------------------------------------------------------- */
+/* line 41, ../sass/global.sass */
+html {
+  overflow-y: scroll;
+  background: white;
+}
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+/* line 47, ../sass/global.sass */
+img, embed, object, video {
+  max-width: 100%;
+}
+
+/* line 51, ../sass/global.sass */
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video {
+  width: 100%;
+}
+
+/* 3. CORE TYPOGRAPHY
+ *---------------------------------------------------------------------------------------- */
+/* line 57, ../sass/global.sass */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1em;
+  line-height: 1.618em;
+  color: #333333;
+}
+
+/* line 63, ../sass/global.sass */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.809em;
+  line-height: 1em;
+}
+
+/* line 67, ../sass/global.sass */
+p, ul, ol, dl, blockquote {
+  font-size: 1em;
+  line-height: 1.618em;
+  margin-bottom: 1.618em;
+  max-width: 30em;
+  /* Optimal width for long-form text */
+}
+
+/* line 74, ../sass/global.sass */
+ul {
+  list-style-type: disc;
+  margin-left: 1.618em;
+}
+
+/* line 78, ../sass/global.sass */
+ol {
+  list-style-type: decimal;
+  margin-left: 1.618em;
+}
+
+/* line 83, ../sass/global.sass */
+nav ul, nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 88, ../sass/global.sass */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 91, ../sass/global.sass */
+i, em {
+  font-style: italic;
+}
+
+/* line 94, ../sass/global.sass */
+small {
+  font-size: 80%;
+}
+
+/* 4. LINKS
+ *---------------------------------------------------------------------------------------- */
+/* line 100, ../sass/global.sass */
+a {
+  outline: none;
+  color: #439bbd;
+  text-decoration: underline;
+}
+/* line 104, ../sass/global.sass */
+a:visited {
+  outline: none;
+  color: #439bbd;
+  text-decoration: underline;
+}
+/* line 108, ../sass/global.sass */
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+/* line 111, ../sass/global.sass */
+a:active, a:focus {
+  outline: none;
+}
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+ *---------------------------------------------------------------------------------------- */
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+ *---------------------------------------------------------------------------------------- */
+/* line 120, ../sass/global.sass */
+#container {
+  padding: 0.809em;
+  max-width: 30em;
+  margin: auto;
+}
+
+/* line 125, ../sass/global.sass */
+aside {
+  width: 100%;
+}
+
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+ *---------------------------------------------------------------------------------------- */
+/* line 132, ../sass/global.sass */
+.cf:before {
+  content: "";
+  display: block;
+}
+/* line 135, ../sass/global.sass */
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 140, ../sass/global.sass */
+.ie6 .cf {
+  zoom: 1;
+}
