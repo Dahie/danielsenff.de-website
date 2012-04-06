@@ -189,7 +189,7 @@ header {
 header .inner {
   padding-top: 4em;
   height: 17em;
-  background: url(../images/bg_header_avatar.png) no-repeat left bottom;
+  background: url(../images/bg_header_avatar.png) no-repeat right bottom;
   max-width: 30em;
   margin: 0px auto;
 }
@@ -198,7 +198,6 @@ header h1 {
   padding: 0;
   margin: 0;
   padding-left: 1.25em;
-  margin-left: 270px;
 }
 /* line 177, ../sass/global.sass */
 header h2 {
@@ -206,7 +205,6 @@ header h2 {
   margin: 0;
   padding: 0;
   padding-left: 3em;
-  margin-left: 270px;
   color: white;
   font-size: 0.8em;
 }
@@ -260,22 +258,21 @@ footer .copyright {
 #languages {
   margin-top: 1em;
   margin-bottom: 1em;
-  margin-left: 270px;
+  width: 13em;
   border-bottom: 1px solid #ecbb03;
   padding-bottom: 0;
 }
-/* line 221, ../sass/global.sass */
+/* line 222, ../sass/global.sass */
 #languages .webgen-langbar-current-lang {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
-/* line 225, ../sass/global.sass */
+/* line 226, ../sass/global.sass */
 nav#menu {
-  padding-left: 270px;
   padding-bottom: 1.4em;
 }
-/* line 230, ../sass/global.sass */
+/* line 231, ../sass/global.sass */
 nav#menu ul li a, nav#menu ul li span {
   display: block;
   width: 100%;
@@ -283,38 +280,38 @@ nav#menu ul li a, nav#menu ul li span {
   padding-left: 22px;
   background: url(../images/bulletin.png) no-repeat left center;
 }
-/* line 238, ../sass/global.sass */
+/* line 239, ../sass/global.sass */
 nav#menu ul li ul li a, nav#menu ul li ul li span {
   font-size: 0.8em;
   background: none;
 }
 
-/* line 242, ../sass/global.sass */
+/* line 243, ../sass/global.sass */
 nav#submenu {
   overflow: auto;
 }
-/* line 244, ../sass/global.sass */
+/* line 245, ../sass/global.sass */
 nav#submenu ul {
   border-bottom: 1px solid #ecbb03;
   overflow: auto;
   margin-bottom: 1em;
 }
-/* line 248, ../sass/global.sass */
+/* line 249, ../sass/global.sass */
 nav#submenu ul li {
   float: left;
   padding: 0.3em 1em;
 }
-/* line 251, ../sass/global.sass */
+/* line 252, ../sass/global.sass */
 nav#submenu ul li.webgen-menu-item-selected {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
-/* line 255, ../sass/global.sass */
+/* line 256, ../sass/global.sass */
 table.vertical {
   width: 100%;
 }
-/* line 257, ../sass/global.sass */
+/* line 258, ../sass/global.sass */
 table.vertical th {
   text-align: left;
   font-style: italic;
@@ -325,33 +322,33 @@ table.vertical th {
 
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
  *---------------------------------------------------------------------------------------- */
-/* line 268, ../sass/global.sass */
+/* line 269, ../sass/global.sass */
 #container #content {
   padding: 0.809em;
   max-width: 30em;
   margin: auto;
 }
 
-/* line 273, ../sass/global.sass */
+/* line 274, ../sass/global.sass */
 aside {
   width: 100%;
 }
 
 /* 7. BROWSER AND NON-SEMANTIC STYLING
  *---------------------------------------------------------------------------------------- */
-/* line 280, ../sass/global.sass */
+/* line 281, ../sass/global.sass */
 .cf:before {
   content: "";
   display: block;
 }
-/* line 283, ../sass/global.sass */
+/* line 284, ../sass/global.sass */
 .cf:after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 288, ../sass/global.sass */
+/* line 289, ../sass/global.sass */
 .ie6 .cf {
   zoom: 1;
 }
