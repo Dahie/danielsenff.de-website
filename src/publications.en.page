@@ -6,7 +6,7 @@ h2. Publications
 
 h3. ImageFlow Workshop at ImageJ Conference 2010
 
-28. October 2010, 60 Minutes workshop in collaboration with Prof. Kai-Uwe Barthel
+__28. October 2010__, 60 Minutes workshop in collaboration with Prof. Kai-Uwe Barthel
 about the visual macro programming tool "ImageFlow":/projects/imageflow/index.html for ImageJ.
 
 The first half of the workshop gave a short summary on the project and served as
@@ -24,31 +24,35 @@ h2. Studies
 
 h3. Visual Programming of image processing algorithms using ImageJ
 
-March 2009, 60 pages Bachelor's thesis about Visual Programming, its use in graphic processing and the implementation of a node-based user interface for the graphic analysis software ImageJ. This thesis resulted in the project ImageFlow.
+__March 2009__, 60 pages Bachelor's thesis about Visual Programming, its use in graphic processing and the implementation of a node-based user interface for the graphic analysis software ImageJ. This thesis resulted in the project ImageFlow.
 
 h3. Online Storage
 
-Dezember 2011, 12 pages paper about the use of cryptography to secure online storage services such as Dropbox or Wuala.
+__Dezember 2011__, 12 pages paper about the use of cryptography to secure online storage services such as Dropbox, Wuala and "Syncany":http://www.syncany.org.
+
+* "PDF download":downloads/online-storage-paper-daniel-senff.pdf
 
 h3. Ursprünge der Wissensvermittlung durch Infografiken ("Origins of education using infographics")
 
-September 2010, 13 pages term paper about Otto Neurath, his work towards democratizing education at the beginning of the 20th century by the use of understandable infographics and the importance of infographics today.
+__September 2010__, 13 pages term paper about Otto Neurath, his work towards democratizing education at the beginning of the 20th century by the use of understandable infographics and the importance of infographics today.
+
+* "PDF download":downloads/infographics-paper-daniel-senff.pdf
 
 h3. Don't play – Why stakeholder value does not work
 
-January 2010, 5 pages Paper, why companies in stock exchange always end up having ethical-economic dilemmas.
-* "Download":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
+__January 2010__, 5 pages Paper, why companies in stock exchange always end up having ethical-economic dilemmas.
+* "PDF download":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
 
 h3. Cryptography in Instant Messaging
 
-December 2008, 7 pages term paper, Instant Messaging is a wide-spread way of communication today. In this paper the security measures of each protocolls are presented and compared.
+__December 2008__, 7 pages term paper, Instant Messaging is a wide-spread way of communication today. In this paper the security measures of each protocolls are presented and compared.
 
-* "Download":downloads/cryptography-in-instantmessaging.pdf
+* "PDF download":downloads/cryptography-in-instantmessaging.pdf
 
 h2. Misc
 
 h3. Online releases of software projects
 
-September 2009, 4-part online-tutorial about the release of software projects 
+__September 2009__, 4-part online-tutorial about the release of software projects 
 
 * "How to release a mod":http://devblog.ctdp.net/2009/09/how-to-release-a-mod-…/

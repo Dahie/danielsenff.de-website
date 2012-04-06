@@ -6,7 +6,7 @@ h2. Veröffentlichungen
 
 h3. ImageFlow Workshop auf der ImageJ Konferenz 2010
 
-28. Oktober 2010, 60 Minuten Workshop in Zusammenarbeit mit Prof. Kai-Uwe Barthel über das visuelle Makro-Programmierungs Tool "ImageFlow":/projects/imageflow/index.html für ImageJ.
+__28. Oktober 2010__, 60 Minuten Workshop in Zusammenarbeit mit Prof. Kai-Uwe Barthel über das visuelle Makro-Programmierungs Tool "ImageFlow":/projects/imageflow/index.html für ImageJ.
 
 Die erste Hälfte des Workshop gab eine kurze Zusammenfassung des Projekts und diente als Einstieg in die Erzeugung von Workflows mit ImageFlow. Die Zweite Hälfte ging auf technische Details ein. Es wurde erklärt wie ImageJ's originale Funktionalität mittels XML-Unit-Definitionen beschrieben wird und zeigte die ersten Schritte um eigene benutzerdefinierte Verarbeitungsknoten zu erstellen.
 
@@ -19,32 +19,36 @@ h2. Studium
 
 h3. Visual Programming of image processing algorithms using ImageJ
 
-März 2009, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ. Das Ergebnis dieser Arbeit war das Projekt ImageFlow.
+__März 2009__, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ. Das Ergebnis dieser Arbeit war das Projekt ImageFlow.
 
 
 h3. Online Storage
 
-Dezember 2011, 12 Seiten Facharbeit über den Einsatz von Kryptografie zur Sicherung von Online-Storage-Services wie Dropbox oder Wuala.
+__Dezember 2011__, 12 Seiten Facharbeit über den Einsatz von Kryptografie zur Sicherung von Online-Storage-Services wie Dropbox, Wuala und "Syncany":http://www.syncany.org.
+
+* "PDF herunterladen":downloads/online-storage-paper-daniel-senff.pdf
 
 h3. Ursprünge der Wissensvermittlung durch Infografiken
 
-September 2010, 13 Seiten Facharbeit über Otto Neurath, seine Bestrebungen der Demokratisierung von Wissensvermittlung zu Beginn des 20. Jh. mittels verständlicher Infografiken und ihre Bedeutung heute.
+__September 2010__, 13 Seiten Facharbeit über Otto Neurath, seine Bestrebungen der Demokratisierung von Wissensvermittlung zu Beginn des 20. Jh. mittels verständlicher Infografiken und ihre Bedeutung heute.
+
+* "PDF herunterladen":downloads/infographics-paper-daniel-senff.pdf
 
 h3. Don't play – Why stakeholder value does not work
 
-Januar 2010, 5 Seiten Facharbeit, Warum der Börsengang einer Firma zwangsweise zu ethisch-ökonomischen Dillema führt.
-* "Download":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
+__Januar 2010__, 5 Seiten Facharbeit, Warum der Börsengang einer Firma zwangsweise zu ethisch-ökonomischen Dillema führt.
+* "PDF herunterladen":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
 
 h3. Cryptography in Instant Messaging
 
-Dezember 2008, 7 Seiten Facharbeit, Instant Messaging ist heute ein weit verbreitetes Kommunikationsformat. In dieser Arbeit werden kurz die Sicherheitssysteme der geläufigsten Protokolle vorgestellt.
+__Dezember 2008__, 7 Seiten Facharbeit, Instant Messaging ist heute ein weit verbreitetes Kommunikationsformat. In dieser Arbeit werden kurz die Sicherheitssysteme der geläufigsten Protokolle vorgestellt.
 
-* "Download":downloads/cryptography-in-instantmessaging.pdf
+* "PDF herunterladen":downloads/cryptography-in-instantmessaging.pdf
 
 h2. Sonstiges
 
 h3. Online-Veröffentlichung von (Software)-Projekten
 
-September 2009, 4-teiliges Online-Tutorial über das Veröffentlichen von Software Projekten. 
+__September 2009__, 4-teiliges Online-Tutorial über das Veröffentlichen von Software Projekten. 
 
 * "How to release a mod":http://devblog.ctdp.net/2009/09/how-to-release-a-mod-…/
