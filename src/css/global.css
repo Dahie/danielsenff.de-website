@@ -174,7 +174,7 @@ a:active, a:focus {
 /* line 155, ../sass/global.sass */
 body {
   background: #4c5212 url(../images/green12/bg_main.jpg) no-repeat center center fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /* line 159, ../sass/global.sass */
