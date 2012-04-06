@@ -23,8 +23,9 @@
 <link rel="apple-touch-icon" href="/link/to/apple-touch-icon.png">
 
 <!-- /ht Jeremy Keith - http://front.ie/mLXiaS -->
+<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{relocatable: /css/global.css}" media="all">
-<link rel="stylesheet" href="{relocatable: /css/layout.css}" media="all and (min-width: 33.236em)">
+<link rel="stylesheet" href="{relocatable: /css/layout2.css}" media="all and (min-width: 33.236em)">
 <!-- 30em + (1.618em * 2) = 33.236em / Eliminates potential of horizontal scrolling in most cases -->
 
 <!--[if (lt IE 9) & (!IEMobile)]>
@@ -37,11 +38,11 @@
 
 <body>
   
-  <div id="container" class="cf">
     
     <header>
+      <div class="inner">
 		<h1><a href="{relocatable: /}">danielsenff.de</a></h1>
-		<h2>your website slogan</h2>
+		<h2>clairvoyant programming</h2>
 		
 		<div id="languages">
         	{langbar:}
@@ -50,8 +51,10 @@
 		<nav id="menu">
 			{menu: {max_levels: 2, used_nodes: files}}
 		</nav>  
+	  </div>
 	</header>
 	
+  <div id="container" class="cf">
     <section id="content">
 		<h1><span>{title:}</span></h1>
 		<div class="inner">
@@ -61,6 +64,7 @@
 			<webgen:block name="content" />
 		</div>
     </section>
+  </div>
 		
 	<footer>
 	  	<div class="inner">
@@ -83,7 +87,6 @@
 		</div>
 	</footer>
     
-  </div>
 
 </body>
 

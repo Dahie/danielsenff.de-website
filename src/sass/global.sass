@@ -21,6 +21,22 @@
  *8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
  *9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
 
+
+/* 0. VARIABLES
+ *----------------------------------------------------------------------------------------
+
+$yellow: #ecbb03
+$bg_green: #4c5212
+$white_transparent: RGBA(255, 255, 255, 0.07)
+
+=transitions
+  -webkit-transition: all 200ms ease-out
+  -moz-transition: all 200ms ease-out
+  -o-transition: all 200ms ease-out
+
+=text_shadow
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+
 /* 1. RESET
  *----------------------------------------------------------------------------------------
 
@@ -55,14 +71,29 @@ img, embed, object, video
  *----------------------------------------------------------------------------------------
 
 body
-  font-family: Georgia, "Times New Roman", serif
+  font-family: 'Gentium Book Basic', Georgia, "Times New Roman", serif
   font-size: 1em
   line-height: 1.618em
-  color: #333
+  color: #eeeeee
 
 h1, h2, h3, h4, h5, h6
   margin-bottom: 0.809em
   line-height: 1em
+  color: $yellow
+  background-color: $white_transparent
+  padding: 6px 0
+  padding-top: 12px
+  text-shadow: 0 3px 2px rgba(0,0,0,0.75)
+
+h3, h4, h5, h6
+  background: none
+  border-bottom: 4px solid $white_transparent
+
+h1
+  background: url(../images/star.png) no-repeat left center
+  padding-left: 1.25em
+  font-size: 1.8em
+  +text_shadow
 
 p, ul, ol, dl, blockquote
   font-size: 1em
@@ -99,28 +130,110 @@ small
 
 a
   outline: none
-  color: #439BBD
+  color: $yellow
   text-decoration: underline
   &:visited
     outline: none
-    color: #439BBD
     text-decoration: underline
   &:hover
     outline: none
     text-decoration: none
   &:active, &:focus
     outline: none
+    text-shadow: 0 0px 2px rgba(0,0,0,0.75)
 
 /* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
  *----------------------------------------------------------------------------------------
+
+body
+  background: $bg_green url(../images/green12/bg_main.jpg) no-repeat center center fixed
+  background-size: 100%
+
+header
+  background: url(../images/bg_header.png) repeat-x bottom
+  color: white
+  margin-bottom: 2em
+  overflow: auto
+  border-bottom: 2px solid $yellow
+  .inner
+    background: url(../images/bg_header_avatar.png) no-repeat left bottom
+    max-width: 30em
+    margin: 0px auto
+    
+  h1
+    margin: 0
+    margin-left: 280px
+  h2
+    background: none
+    margin: 0
+    padding: 0
+    padding-left: 3em
+    margin-left: 280px
+    color: white
+    font-size: 0.8em
+  
+#container
+  background: url(../images/bg_footeredge.png) repeat-x bottom
+  padding-bottom: 6em
+  
+footer
+  clear: both
+  /*background-color: $darkgrey
+  background-color: $white_transparent
+  border-top: 1px solid $yellow
+  color: white
+  overflow: auto
+  h3
+    +text_shadow
+  .inner
+    max-width: 30em
+    margin: 0px auto
+    
+  .column
+    width: 13em
+    float: left
+  .copyright
+    clear: both
+    text-align: center
+
+#languages
+  margin-top: 1em
+  margin-left: 280px
+  border-bottom: 1px solid $yellow
+  
+nav#menu
+  padding-left: 280px
+  ul
+    li
+      a, span
+        display: block
+        width: 100%
+        padding: 1px
+        padding-left: 22px
+        background: url(../images/bulletin.png) no-repeat left center 
+        border-radius: 16px
+      
+nav#submenu
+  overflow: auto
+  ul
+    border-bottom: 1px solid $yellow
+    overflow: auto
+    margin-bottom: 1em
+    li
+      float: left
+      padding: 0.3em 1em
+      &.webgen-menu-item-selected
+        border-bottom: 3px solid $yellow
+        background-color: $white_transparent
 
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
  *----------------------------------------------------------------------------------------
 
 #container
-  padding: 0.809em
-  max-width: 30em
-  margin: auto
+  #content
+    padding: 0.809em
+    max-width: 30em
+    margin: auto
 
 aside
   width: 100%
