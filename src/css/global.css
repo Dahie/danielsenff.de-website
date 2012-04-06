@@ -94,6 +94,14 @@ h1 {
 }
 
 /* line 99, ../sass/global.sass */
+h4 {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding-top: 0;
+}
+
+/* line 105, ../sass/global.sass */
 p, ul, ol, dl, blockquote {
   font-size: 1em;
   line-height: 1.618em;
@@ -102,59 +110,59 @@ p, ul, ol, dl, blockquote {
   /* Optimal width for long-form text */
 }
 
-/* line 106, ../sass/global.sass */
+/* line 112, ../sass/global.sass */
 ul {
   list-style-type: disc;
   margin-left: 1.618em;
 }
 
-/* line 110, ../sass/global.sass */
+/* line 116, ../sass/global.sass */
 ol {
   list-style-type: decimal;
   margin-left: 1.618em;
 }
 
-/* line 115, ../sass/global.sass */
+/* line 121, ../sass/global.sass */
 nav ul, nav ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 120, ../sass/global.sass */
+/* line 126, ../sass/global.sass */
 b, strong {
   font-weight: bold;
 }
 
-/* line 123, ../sass/global.sass */
+/* line 129, ../sass/global.sass */
 i, em {
   font-style: italic;
 }
 
-/* line 126, ../sass/global.sass */
+/* line 132, ../sass/global.sass */
 small {
   font-size: 80%;
 }
 
 /* 4. LINKS
  *---------------------------------------------------------------------------------------- */
-/* line 132, ../sass/global.sass */
+/* line 138, ../sass/global.sass */
 a {
   outline: none;
   color: #ecbb03;
   text-decoration: underline;
 }
-/* line 136, ../sass/global.sass */
+/* line 142, ../sass/global.sass */
 a:visited {
   outline: none;
   text-decoration: underline;
 }
-/* line 139, ../sass/global.sass */
+/* line 145, ../sass/global.sass */
 a:hover {
   outline: none;
   text-decoration: none;
 }
-/* line 142, ../sass/global.sass */
+/* line 148, ../sass/global.sass */
 a:active, a:focus {
   outline: none;
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
@@ -163,35 +171,36 @@ a:active, a:focus {
 
 /* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
  *---------------------------------------------------------------------------------------- */
-/* line 149, ../sass/global.sass */
+/* line 155, ../sass/global.sass */
 body {
   background: #4c5212 url(../images/green12/bg_main.jpg) no-repeat center center fixed;
   background-size: 100%;
 }
 
-/* line 153, ../sass/global.sass */
+/* line 159, ../sass/global.sass */
 header {
-  background: url(../images/bg_header.png) repeat-x bottom;
+  background: url(../images/bg_header.png) repeat-x top, url(../images/bg_header_eye.png) no-repeat top center;
   color: white;
   margin-bottom: 2em;
   overflow: auto;
   border-bottom: 2px solid #ecbb03;
 }
-/* line 159, ../sass/global.sass */
+/* line 165, ../sass/global.sass */
 header .inner {
-  padding-top: 3em;
+  padding-top: 4em;
+  height: 17em;
   background: url(../images/bg_header_avatar.png) no-repeat left bottom;
   max-width: 30em;
   margin: 0px auto;
 }
-/* line 165, ../sass/global.sass */
+/* line 172, ../sass/global.sass */
 header h1 {
   padding: 0;
   margin: 0;
   padding-left: 1.25em;
   margin-left: 270px;
 }
-/* line 170, ../sass/global.sass */
+/* line 177, ../sass/global.sass */
 header h2 {
   background: none;
   margin: 0;
@@ -202,13 +211,22 @@ header h2 {
   font-size: 0.8em;
 }
 
-/* line 179, ../sass/global.sass */
+/* line 186, ../sass/global.sass */
 #container {
   background: url(../images/bg_footeredge.png) repeat-x bottom;
   padding-bottom: 6em;
 }
+/* line 189, ../sass/global.sass */
+#container img {
+  border: 5px solid RGBA(255, 255, 255, 0.07);
+}
+/* line 191, ../sass/global.sass */
+#container img.cover {
+  float: left;
+  margin-right: 1em;
+}
 
-/* line 183, ../sass/global.sass */
+/* line 195, ../sass/global.sass */
 footer {
   clear: both;
   /*background-color: $darkgrey */
@@ -217,105 +235,123 @@ footer {
   color: white;
   overflow: auto;
 }
-/* line 190, ../sass/global.sass */
+/* line 202, ../sass/global.sass */
 footer h3 {
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
   text-shadow: 0 0px 2px rgba(0, 0, 0, 0.75);
 }
-/* line 192, ../sass/global.sass */
+/* line 204, ../sass/global.sass */
 footer .inner {
   max-width: 30em;
   margin: 0px auto;
 }
-/* line 196, ../sass/global.sass */
+/* line 208, ../sass/global.sass */
 footer .column {
   width: 13em;
   float: left;
 }
-/* line 199, ../sass/global.sass */
+/* line 211, ../sass/global.sass */
 footer .copyright {
   clear: both;
   text-align: center;
 }
 
-/* line 203, ../sass/global.sass */
+/* line 215, ../sass/global.sass */
 #languages {
   margin-top: 1em;
+  margin-bottom: 1em;
   margin-left: 270px;
   border-bottom: 1px solid #ecbb03;
   padding-bottom: 0;
 }
-/* line 208, ../sass/global.sass */
+/* line 221, ../sass/global.sass */
 #languages .webgen-langbar-current-lang {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
-/* line 212, ../sass/global.sass */
+/* line 225, ../sass/global.sass */
 nav#menu {
   padding-left: 270px;
-  padding-bottom: 1.6em;
+  padding-bottom: 1.4em;
 }
-/* line 217, ../sass/global.sass */
+/* line 230, ../sass/global.sass */
 nav#menu ul li a, nav#menu ul li span {
   display: block;
   width: 100%;
   padding: 1px;
   padding-left: 22px;
   background: url(../images/bulletin.png) no-repeat left center;
-  border-radius: 16px;
+}
+/* line 238, ../sass/global.sass */
+nav#menu ul li ul li a, nav#menu ul li ul li span {
+  font-size: 0.8em;
+  background: none;
 }
 
-/* line 225, ../sass/global.sass */
+/* line 242, ../sass/global.sass */
 nav#submenu {
   overflow: auto;
 }
-/* line 227, ../sass/global.sass */
+/* line 244, ../sass/global.sass */
 nav#submenu ul {
   border-bottom: 1px solid #ecbb03;
   overflow: auto;
   margin-bottom: 1em;
 }
-/* line 231, ../sass/global.sass */
+/* line 248, ../sass/global.sass */
 nav#submenu ul li {
   float: left;
   padding: 0.3em 1em;
 }
-/* line 234, ../sass/global.sass */
+/* line 251, ../sass/global.sass */
 nav#submenu ul li.webgen-menu-item-selected {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
+/* line 255, ../sass/global.sass */
+table.vertical {
+  width: 100%;
+}
+/* line 257, ../sass/global.sass */
+table.vertical th {
+  text-align: left;
+  font-style: italic;
+  width: 25%;
+  font-size: 0.8em;
+  line-height: 1.1em;
+}
+
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
  *---------------------------------------------------------------------------------------- */
-/* line 242, ../sass/global.sass */
+/* line 268, ../sass/global.sass */
 #container #content {
   padding: 0.809em;
   max-width: 30em;
   margin: auto;
 }
 
-/* line 247, ../sass/global.sass */
+/* line 273, ../sass/global.sass */
 aside {
   width: 100%;
 }
 
 /* 7. BROWSER AND NON-SEMANTIC STYLING
  *---------------------------------------------------------------------------------------- */
-/* line 254, ../sass/global.sass */
+/* line 280, ../sass/global.sass */
 .cf:before {
   content: "";
   display: block;
 }
-/* line 257, ../sass/global.sass */
+/* line 283, ../sass/global.sass */
 .cf:after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 262, ../sass/global.sass */
+/* line 288, ../sass/global.sass */
 .ie6 .cf {
   zoom: 1;
 }

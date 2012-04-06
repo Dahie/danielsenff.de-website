@@ -6,12 +6,14 @@ sort_info: 1
 
 h2. General
 
+table(vertical).
 |_.Name:|	Daniel Senff|
 |_.Birthday:|	14. Dezember 1985|
 |_.Location:|	Berlin|
 
 h2. Education
 
+table(vertical).
 |_.Graduation:|	Abitur|
 |_.Study:|	International Media and Computing|
 |_.University of Applied Science:|	HTW Berlin|
@@ -20,20 +22,22 @@ h2. Education
 
 h2. Computer-Skills
 
-* Programming languages: Java SE, Ruby, C++
-* Web programming (Ruby-On-Rails, MySQL)
-* Webdesign (XHTML, XML, JavaScript CSS)
+* Programming languages: Java SE, Ruby
+* Web programming (Ruby-On-Rails, MySQL, Javascript)
+* Webdesign (HTML5, XML, JavaScript CSS3)
 * Graphic processing, 2D- und 3D- Design
 * Basics of Video editing 
 * Basics of Audio editing
 
 h2. Special
 
+table(vertical).
 |_.Languages:|	German, English (Fluent), Spanish (Basic), Italian (Basic), French (Basic)|
 |_.Music:|	Bass; choir- and solo experiences|
 
 h2. Contact
 
+table(vertical).
 |_.eMail:|	public at danielsenff dot de|
 |_.Jabber/XMPP:|	dahie@jabjab.de (no email)|
 |_.Skype:|dahiesenff|

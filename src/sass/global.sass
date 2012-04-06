@@ -96,6 +96,12 @@ h1
   font-size: 1.8em
   +text_shadow
 
+h4
+  border: none
+  color: white
+  font-weight: bold
+  padding-top: 0
+
 p, ul, ol, dl, blockquote
   font-size: 1em
   line-height: 1.618em
@@ -151,13 +157,14 @@ body
   background-size: 100%
 
 header
-  background: url(../images/bg_header.png) repeat-x bottom
+  background: url(../images/bg_header.png) repeat-x top, url(../images/bg_header_eye.png) no-repeat top center
   color: white
   margin-bottom: 2em
   overflow: auto
   border-bottom: 2px solid $yellow
   .inner
-    padding-top: 3em
+    padding-top: 4em
+    height: 17em
     background: url(../images/bg_header_avatar.png) no-repeat left bottom
     max-width: 30em
     margin: 0px auto
@@ -179,6 +186,11 @@ header
 #container
   background: url(../images/bg_footeredge.png) repeat-x bottom
   padding-bottom: 6em
+  img
+    border: 5px solid $white_transparent
+    &.cover
+      float: left
+      margin-right: 1em
   
 footer
   clear: both
@@ -202,6 +214,7 @@ footer
 
 #languages
   margin-top: 1em
+  margin-bottom: 1em
   margin-left: 270px
   border-bottom: 1px solid $yellow
   padding-bottom: 0
@@ -211,7 +224,7 @@ footer
   
 nav#menu
   padding-left: 270px
-  padding-bottom: 1.6em
+  padding-bottom: 1.4em
   ul
     li
       a, span
@@ -220,7 +233,11 @@ nav#menu
         padding: 1px
         padding-left: 22px
         background: url(../images/bulletin.png) no-repeat left center 
-        border-radius: 16px
+      ul
+        li
+          a, span
+            font-size: 0.8em
+            background: none
       
 nav#submenu
   overflow: auto
@@ -234,6 +251,15 @@ nav#submenu
       &.webgen-menu-item-selected
         border-bottom: 3px solid $yellow
         background-color: $white_transparent
+
+table.vertical
+  width: 100%
+  th
+    text-align: left
+    font-style: italic
+    width: 25%
+    font-size: 0.8em
+    line-height: 1.1em
 
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
  *----------------------------------------------------------------------------------------

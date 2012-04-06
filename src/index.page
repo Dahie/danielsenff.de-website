@@ -6,12 +6,14 @@ sort_info: 1
 
 h2. Allgemein
 
+table(vertical).
 |_.Name:|	Daniel Senff|
 |_.Geboren:|	14. Dezember 1985|
 |_.Wohnsitz:|	Berlin|
 
 h2. Ausbildung
 
+table(vertical).
 |_.Schulabschluss:|	Abitur|
 |_.Studium:|	Internationaler Studiengang Medieninformatik|
 |_.Fachhochschule:|	HTW Berlin|
@@ -20,24 +22,25 @@ h2. Ausbildung
 
 h2. Computer-Skills
 
-* Programmiersprachen: Java SE, Ruby, C++
-* Webprogrammierung (Ruby-On-Rails, MySQL)
-* Webdesign (XHTML, XML, JavaScript, CSS)
+* Programmiersprachen: Java SE, Ruby
+* Webprogrammierung (Ruby-On-Rails, MySQL, Javascript)
+* Webdesign (HTML5, XML, JavaScript, CSS3)
 * Grafikbearbeitung, 2D- und 3D- Design
 * Videobearbeitung (Grundkenntnisse)
 * Audiobearbeitung (Grundkenntnisse)
 
 h2. Spezielles
 
+table(vertical).
 |_.Sprachen:|	Deutsch, Englisch (Fließend), Spanisch (Grundkenntnisse), Italienisch (Grundkenntnisse), Französisch (Grundkenntnisse)|
 |_.Gesang:|	Bass; Chor- und Soloerfahrung|
 
 h2. Kontakt
 
+table(vertical).
 |_.eMail:|	public (bei) danielsenff punkt de|
 |_.Jabber/XMPP:|	dahie@jabjab.de (no email)|
 |_.Skype:|dahiesenff|
 |_.MSN-Messenger:|	thedahie@hotmail.com (no email)|
-|_.ICQ:| 103299815|
 |_.Telefon:| auf Anfrage|
 |_.Networks:| "Xing":https://www.xing.com/profile/Daniel_Senff, "Twitter":https://www.twitter.com/Dahie, "github":https://github.com/Dahie|
