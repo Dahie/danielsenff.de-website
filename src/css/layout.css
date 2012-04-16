@@ -7,10 +7,15 @@
   max-width: 40em;
 }
 
+/* line 10, ../sass/layout.sass */
+header .inner {
+  max-width: 40em;
+}
+
 /* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
  *---------------------------------------------------------------------------------------- */
 @media screen and (min-width: 30em) and (max-width: 63.236em) {
-  /* line 14, ../sass/layout.sass */
+  /* line 17, ../sass/layout.sass */
   #container #content {
     width: 30em TYPOGRAPHY Mummy bear;
   }

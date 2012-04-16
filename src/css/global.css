@@ -85,15 +85,21 @@ h3, h4, h5, h6 {
 }
 
 /* line 93, ../sass/global.sass */
+h2 {
+  margin-top: 1.809em;
+}
+
+/* line 96, ../sass/global.sass */
 h1 {
   background: url(../images/star.png) no-repeat left center;
   padding-left: 1.25em;
   font-size: 1.8em;
+  margin-bottom: 0;
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
   text-shadow: 0 0px 2px rgba(0, 0, 0, 0.75);
 }
 
-/* line 99, ../sass/global.sass */
+/* line 104, ../sass/global.sass */
 h4 {
   border: none;
   color: white;
@@ -101,7 +107,7 @@ h4 {
   padding-top: 0;
 }
 
-/* line 105, ../sass/global.sass */
+/* line 110, ../sass/global.sass */
 p, ul, ol, dl, blockquote {
   font-size: 1em;
   line-height: 1.618em;
@@ -110,59 +116,59 @@ p, ul, ol, dl, blockquote {
   /* Optimal width for long-form text */
 }
 
-/* line 112, ../sass/global.sass */
+/* line 117, ../sass/global.sass */
 ul {
   list-style-type: disc;
   margin-left: 1.618em;
 }
 
-/* line 116, ../sass/global.sass */
+/* line 121, ../sass/global.sass */
 ol {
   list-style-type: decimal;
   margin-left: 1.618em;
 }
 
-/* line 121, ../sass/global.sass */
+/* line 126, ../sass/global.sass */
 nav ul, nav ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 126, ../sass/global.sass */
+/* line 131, ../sass/global.sass */
 b, strong {
   font-weight: bold;
 }
 
-/* line 129, ../sass/global.sass */
+/* line 134, ../sass/global.sass */
 i, em {
   font-style: italic;
 }
 
-/* line 132, ../sass/global.sass */
+/* line 137, ../sass/global.sass */
 small {
   font-size: 80%;
 }
 
 /* 4. LINKS
  *---------------------------------------------------------------------------------------- */
-/* line 138, ../sass/global.sass */
+/* line 143, ../sass/global.sass */
 a {
   outline: none;
   color: #ecbb03;
   text-decoration: underline;
 }
-/* line 142, ../sass/global.sass */
+/* line 147, ../sass/global.sass */
 a:visited {
   outline: none;
   text-decoration: underline;
 }
-/* line 145, ../sass/global.sass */
+/* line 150, ../sass/global.sass */
 a:hover {
   outline: none;
   text-decoration: none;
 }
-/* line 148, ../sass/global.sass */
+/* line 153, ../sass/global.sass */
 a:active, a:focus {
   outline: none;
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
@@ -171,13 +177,13 @@ a:active, a:focus {
 
 /* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
  *---------------------------------------------------------------------------------------- */
-/* line 155, ../sass/global.sass */
+/* line 160, ../sass/global.sass */
 body {
   background: #4c5212 url(../images/green12/bg_main.jpg) repeat-y center center fixed;
   background-size: cover;
 }
 
-/* line 159, ../sass/global.sass */
+/* line 164, ../sass/global.sass */
 header {
   background: url(../images/bg_header.png) repeat-x top, url(../images/bg_header_eye.png) no-repeat top center;
   color: white;
@@ -186,7 +192,7 @@ header {
   overflow: auto;
   border-bottom: 2px solid #ecbb03;
 }
-/* line 166, ../sass/global.sass */
+/* line 171, ../sass/global.sass */
 header .inner {
   padding-top: 4em;
   height: 17em;
@@ -194,13 +200,13 @@ header .inner {
   max-width: 30em;
   margin: 0px auto;
 }
-/* line 173, ../sass/global.sass */
+/* line 178, ../sass/global.sass */
 header h1 {
   padding: 0;
   margin: 0;
   padding-left: 1.25em;
 }
-/* line 178, ../sass/global.sass */
+/* line 183, ../sass/global.sass */
 header h2 {
   background: none;
   margin: 0;
@@ -210,17 +216,17 @@ header h2 {
   font-size: 0.8em;
 }
 
-/* line 187, ../sass/global.sass */
+/* line 192, ../sass/global.sass */
 #container {
   background: url(../images/bg_footeredge.png) repeat-x bottom;
   padding-bottom: 6em;
 }
-/* line 190, ../sass/global.sass */
+/* line 195, ../sass/global.sass */
 #container img {
   border: 5px solid RGBA(255, 255, 255, 0.07);
 }
 
-/* line 193, ../sass/global.sass */
+/* line 198, ../sass/global.sass */
 footer {
   clear: both;
   /*background-color: $darkgrey */
@@ -229,28 +235,28 @@ footer {
   color: white;
   overflow: auto;
 }
-/* line 200, ../sass/global.sass */
+/* line 205, ../sass/global.sass */
 footer h3 {
   /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */
   text-shadow: 0 0px 2px rgba(0, 0, 0, 0.75);
 }
-/* line 202, ../sass/global.sass */
+/* line 207, ../sass/global.sass */
 footer .inner {
   max-width: 30em;
   margin: 0px auto;
 }
-/* line 206, ../sass/global.sass */
+/* line 211, ../sass/global.sass */
 footer .column {
   width: 10em;
   float: left;
 }
-/* line 209, ../sass/global.sass */
+/* line 214, ../sass/global.sass */
 footer .copyright {
   clear: both;
   text-align: center;
 }
 
-/* line 213, ../sass/global.sass */
+/* line 218, ../sass/global.sass */
 #languages {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -258,17 +264,17 @@ footer .copyright {
   border-bottom: 1px solid #ecbb03;
   padding-bottom: 0;
 }
-/* line 220, ../sass/global.sass */
+/* line 225, ../sass/global.sass */
 #languages .webgen-langbar-current-lang {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
-/* line 224, ../sass/global.sass */
+/* line 229, ../sass/global.sass */
 nav#menu {
   padding-bottom: 1.4em;
 }
-/* line 229, ../sass/global.sass */
+/* line 234, ../sass/global.sass */
 nav#menu ul li a, nav#menu ul li span {
   display: block;
   width: 100%;
@@ -276,38 +282,40 @@ nav#menu ul li a, nav#menu ul li span {
   padding-left: 22px;
   background: url(../images/bulletin.png) no-repeat left center;
 }
-/* line 237, ../sass/global.sass */
+/* line 242, ../sass/global.sass */
 nav#menu ul li ul li a, nav#menu ul li ul li span {
   font-size: 0.8em;
   background: none;
 }
 
-/* line 241, ../sass/global.sass */
+/* line 246, ../sass/global.sass */
 nav#submenu {
   overflow: auto;
+  margin-top: 1.809em;
 }
-/* line 243, ../sass/global.sass */
+/* line 249, ../sass/global.sass */
 nav#submenu ul {
   border-bottom: 1px solid #ecbb03;
   overflow: auto;
   margin-bottom: 1em;
+  width: 100%;
 }
-/* line 247, ../sass/global.sass */
+/* line 254, ../sass/global.sass */
 nav#submenu ul li {
   float: left;
   padding: 0.3em 1em;
 }
-/* line 250, ../sass/global.sass */
+/* line 257, ../sass/global.sass */
 nav#submenu ul li.webgen-menu-item-selected {
   border-bottom: 3px solid #ecbb03;
   background-color: RGBA(255, 255, 255, 0.07);
 }
 
-/* line 254, ../sass/global.sass */
+/* line 261, ../sass/global.sass */
 table.vertical {
   width: 100%;
 }
-/* line 256, ../sass/global.sass */
+/* line 263, ../sass/global.sass */
 table.vertical th {
   text-align: left;
   font-style: italic;
@@ -318,33 +326,33 @@ table.vertical th {
 
 /* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
  *---------------------------------------------------------------------------------------- */
-/* line 267, ../sass/global.sass */
+/* line 274, ../sass/global.sass */
 #container #content {
   padding: 0.809em;
   max-width: 30em;
   margin: auto;
 }
 
-/* line 272, ../sass/global.sass */
+/* line 279, ../sass/global.sass */
 aside {
   width: 100%;
 }
 
 /* 7. BROWSER AND NON-SEMANTIC STYLING
  *---------------------------------------------------------------------------------------- */
-/* line 279, ../sass/global.sass */
+/* line 286, ../sass/global.sass */
 .cf:before {
   content: "";
   display: block;
 }
-/* line 282, ../sass/global.sass */
+/* line 289, ../sass/global.sass */
 .cf:after {
   content: "";
   display: block;
   clear: both;
 }
 
-/* line 287, ../sass/global.sass */
+/* line 294, ../sass/global.sass */
 .ie6 .cf {
   zoom: 1;
 }
