@@ -14,7 +14,7 @@ archivieren zu können.
 
 * "caramelize bei Github":http://github.com/Dahie/caramelize
 
-h3. ImageFlow
+h3. "ImageFlow":imageflow/index.html
 
 !(cover){relocatable: /images/imageflow_cover.jpg}!
 
@@ -22,6 +22,7 @@ h4. Knotenbasierte Benutzerschnittstelle für ImageJ
 
 ImageFlow ist mein Bachelor-Projekt und ist die Implementation einer knotenbasierten Benutzerführung für "ImageJ":http://rsb.info.nih.gov/ij/. Dieses in Java-geschriebene Grafikprogramm dient als Grundlage für Grafikfilter und -verarbeitung. ImageFlow macht es möglich durch visuelles Verbinden der Filter einen Workflow zu konstruieren. Damit bietet es eine Alternative zu umständlichen Macro-Scripts in ImageJ.
 
+* "Mehr":imageflow/index.html
 * "ImageFlow Development Blog":http://imageflow.danielsenff.de
 * "ImageFlow bei Github":http://github.com/Dahie/imageflow
 
@@ -33,6 +34,7 @@ h4. Plattformübergreifende DirectDrawSurface Textur-Utilities
 
 Die DDS-Utils sind eine Reihe von kleinen Textur-bezogenen Grafikprogrammen, die auf spezielle Anwendungsfälle der Games-Content-Produktion zugeschnitten sind. Badds dient dem Massenverarbeiten von Texturdateien, Dropps dient der einfachen Texturkonvertierung und Radds der Texturbetrachtung. Diese Tools sind Open Source und plattformübergreifend.
 
+* "DDS-Utils bei CTDP":http://ctdp.net/ddsutils.html
 * "DDS-Utils bei Github":http://github.com/Dahie/DDS-Utils
 
 h3. Cars & Tracks Development Project
