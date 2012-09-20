@@ -21,12 +21,17 @@ h3. Visual Programming of image processing algorithms using ImageJ
 
 __März 2009__, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ. Das Ergebnis dieser Arbeit war das Projekt ImageFlow.
 
-
 h3. Online Storage
 
 __Dezember 2011__, 12 Seiten Facharbeit über den Einsatz von Kryptografie zur Sicherung von Online-Storage-Services wie Dropbox, Wuala und "Syncany":http://www.syncany.org.
 
 * "PDF herunterladen":downloads/online-storage-paper-daniel-senff.pdf
+
+h3. Support software for Wiki content migration
+
+__September 2011__, 39 Seiten Facharbeit über Content migration zwischen Wikis und der Implementierung einer modularen Software zum Konvertieren jedwedem Wikis in ein git-bassiertes gollum Archiv-Wiki. 
+
+* "PDF herunterladen":downloads/wiki-migration-caramelize-paper-sept-2011.pdf
 
 h3. Ursprünge der Wissensvermittlung durch Infografiken
 
