@@ -22,12 +22,13 @@ table(vertical).
 
 h2. Computer-Skills
 
-* Programmiersprachen: Java SE, Ruby
-* Webprogrammierung (Ruby-On-Rails, MySQL, Javascript)
-* Webdesign (HTML5, XML, JavaScript, CSS3)
-* Grafikbearbeitung, 2D- und 3D- Design
-* Videobearbeitung (Grundkenntnisse)
-* Audiobearbeitung (Grundkenntnisse)
+table(vertical).
+|_.Programmiersprachen:|Java SE, Ruby, Javascript|
+|_.Webentwicklung:|Ruby-On-Rails, MySQL, jQuery|
+|_.Webdesign:|HTML5, XML, CSS3, WebGL|
+|_.Grafikbearbeitung:|2D- und 3D-Design|
+|_.Videobearbeitung:|Grundkenntnisse|
+|_.Audiobearbeitung:|Grundkenntnisse|
 
 h2. Spezielles
 
@@ -41,6 +42,5 @@ table(vertical).
 |_.eMail:|	public (bei) danielsenff punkt de|
 |_.Jabber/XMPP:|	dahie@jabjab.de (no email)|
 |_.Skype:|dahiesenff|
-|_.MSN-Messenger:|	thedahie@hotmail.com (no email)|
 |_.Telefon:| auf Anfrage|
 |_.Networks:| "Xing":https://www.xing.com/profile/Daniel_Senff, "Twitter":https://www.twitter.com/Dahie, "github":https://github.com/Dahie, "Google+":https://plus.google.com/102534768531197487264|
