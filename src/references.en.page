@@ -42,32 +42,37 @@ h2. Implementation
 
 h3. "dailyme":http://www.dailyme.de
 
-* Website of the "dailyme Video-App":http://www.dailyme.de by "Selocon":http://www.selocon.com.
+* Website of the "dailyme Video-App":http://www.dailyme.de for "Selocon":http://www.selocon.com.
 * 2011-heute
-* Wordpress, XHTML 1.0 Transitional, CSS3/SASS, JQuery
+* Wordpress, XHTML5 1.0 Transitional, CSS3/SASS, jQuery
+
+h3. dailyme In-App Catalog
+
+* Dynamic video catalog displayed within the "dailyme Video-App":http://www.dailyme.de.
+* 2011-today
+* Javascript-Webapp, HTML5/HAML, CSS3/SASS, jQuery
 
 h3. "dailyme mobile Catalog":http://m.dailyme.de
 
-* Web catalog as part of the mobile video service "dailyme":http://www.dailyme.de by "Selocon":http://www.selocon.com.
+* Web catalog of video channels as part of the mobile video service "dailyme":http://www.dailyme.de by "Selocon":http://www.selocon.com.
 * 2009-today
-* Ruby-on-Rails, HAML, SASS
+* Ruby-on-Rails, HTML5/HAML, CSS3/SASS
 
 h3. "Komland GmbH":http://www.komland.it
 
-* Expert for communal machines in South Tyrol.
+* Expert for communal machines in South Tyrol. Created during an internship at "Profi IT Lana":http://www.profi.it
 * 2. quarter 2008
 * Typo3, XHTML 1.0 Transitional, CSS
-* Created during an internship at "Profi IT Lana":http://www.profi.it
 
 h3. "kuntnerfashion group":http://www.kuntnerfashion.com
 
-* Clothing, shoes and fashion in Lana, South Tyrol.
+* Clothing, shoes and fashion in Lana, South Tyrol. Created during an internship at "Profi IT Lana":http://www.profi.it
 * 2. quarter 2008
 * Typo3, XHTML 1.0 Transitional, CSS
-* Created during an internship at "Profi IT Lana":http://www.profi.it
+* 
 			
 h3. "Zimmerei/Hausbau Windegger":http://www.windegger.it/
 
-* 2. quarter 2008: Typo3, XHTML 1.0 Transitional, CSS
-* Carpenter and house construction in Lana, South Tyrol.
-* Created during an internship at "Profi IT Lana":http://www.profi.it
+* Carpenter and house construction in Lana, South Tyrol. Created during an internship at "Profi IT Lana":http://www.profi.it
+* 2. quarter 2008
+* Typo3, XHTML 1.0 Transitional, CSS
