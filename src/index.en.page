@@ -22,6 +22,7 @@ table(vertical).
 
 h2. Computer-Skills
 
+table(vertical).
 |_.Programming languages:|Java SE, Ruby, Javascript|
 |_.Web programming:|Ruby-On-Rails, MySQL, jQuery|
 |_.Webdesign:|HTML5, XML, CSS3, WebGL|
