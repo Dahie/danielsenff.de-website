@@ -1,0 +1,15 @@
+**/.sass-cache/
+.git*
+.rvmrc
+.rsync-exclude
+.DS_Store
+*.sassc
+Gemfile*
+Rakefile
+*.rb
+.git/
+.komodotools
+*.kpd
+*.komodoproject
+wp-content/uploads/
+dm_theme/

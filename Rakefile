@@ -115,9 +115,13 @@ end
 desc "Regenerate the website and upload to the server"
 task :deploy => [:cleanup, :webgen, 'generate:thumbnails'] do
   #task :deploy => [:dist] do
-  puts 'Please enter the FTP password'
-  password = STDIN.gets.chomp
-  ftp_files("out", FileList["out/**/*"], "danielsenff.de", 'danielsenff.de', 'u19168', password)
+  #puts 'Please enter the FTP password'
+  #password = STDIN.gets.chomp
+  #ftp_files("out", FileList["out/**/*"], "danielsenff.de", 'danielsenff.de', 'u19168', password)
+
+  remote_root = 'danielsenff.de'
+  ssh_user = 'u19168@danielsenff.de'
+  system("rsync -avz --exclude-from=.rsync-exclude --omit-dir-times --delete out/ #{ssh_user}:#{remote_root}")
 end
 
 desc "Deletes existing generated data and delets the cache."
