@@ -26,6 +26,12 @@ ImageFlow ist mein Bachelor-Projekt und ist die Implementation einer knotenbasie
 * "ImageFlow Development Blog":http://imageflow.danielsenff.de
 * "ImageFlow bei Github":http://github.com/Dahie/imageflow
 
+h3. Scraperrr.js
+
+Durch definierte JSON-Konfigurationen können mit Scraperrr.js gezielt Webseiten-Inhalte gelesen und in ein JSON-Format exportiert werden. Die Software wurde speziell für das Auslesen und konvertieren strukturierter Informationen aus Wikis entwickelt, kann aber breiter eingesetzt werden.
+
+* "Scraperrr.js bei Github":http://github.com/Dahie/Scraperrr.js
+
 h3. DDS-Utils
 
 !(cover){relocatable: /images/ddsutils_cover.jpg}!

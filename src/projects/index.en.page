@@ -12,7 +12,7 @@ Caramelize is a compact and flexible wiki converter. It is intended for easily c
 
 In the future more target wiki system may be added. For the moment export is supported for WikkaWiki and Redmine-Wiki.
 
-* "caramelize bei Github":http://github.com/Dahie/caramelize
+* "caramelize on Github":http://github.com/Dahie/caramelize
 
 h3. "ImageFlow":imageflow/index.html
 
@@ -24,7 +24,13 @@ ImageFlow is my Bachelor-project and is the implementation of a node-based user 
 
 * "More":imageflow/index.html
 * "ImageFlow Development Blog":http://imageflow.danielsenff.de
-* "ImageFlow at Github":http://github.com/Dahie/imageflow
+* "ImageFlow on Github":http://github.com/Dahie/imageflow
+
+h3. Scraperrr.js
+
+By defining JSON-configurations for Scraperrr.js, textual website contents can be targeted, read and exported in a specified JSON-format. The software was specifically designed for reading and converting structured information from Wikis, but can be applied more generally.
+
+* "Scraperrr.js on Github":http://github.com/Dahie/Scraperrr.js
 
 h3. DDS-Utils
 
@@ -35,7 +41,7 @@ h4. Platform-independent DirectDrawSurface Texture-Utilities
 The DDS-Utils are a number of smal texture-related graphic applications, which are designed for special use-cases in the Games-content-production process. Badds allows to batch process many texture files at once, Dropps is an easy tool for texture conversion and Radds is a for review and previewing textures. These tools are Open Source and platform-independent.
 
 * "DDS-Utils at CTDP":http://ctdp.net/ddsutils.html
-* "DDS-Utils at Github":http://github.com/Dahie/DDS-Utils
+* "DDS-Utils on Github":http://github.com/Dahie/DDS-Utils
 
 h3. Cars & Tracks Development Project
 
