@@ -22,9 +22,9 @@ on how to create your own customized processing nodes.
 
 h2. Studies
 
-h3. Visual Programming of image processing algorithms using ImageJ
+h3. Design and implementation of web-based navigation concepts for a multi-dimensional product catalog
 
-__March 2009__, 60 pages Bachelor's thesis about Visual Programming, its use in graphic processing and the implementation of a node-based user interface for the graphic analysis software ImageJ. This thesis resulted in the project ImageFlow.
+__May 2013__, 120 pages Master's thesis about the use of 3D for navigation in product catalogs in the webbrowser. Concepts are developed and implemented in a prototype displaying image data sets using WebGL and CSS-transforms.
 
 h3. Online Storage
 
@@ -34,7 +34,7 @@ __Dezember 2011__, 12 pages paper about the use of cryptography to secure online
 
 h3. Support software for Wiki content migration
 
-__September 2011__, 39 pages Paper about content migration betweens wikis and the implementation of a modular software for converting any wiki into a git-based gollum archive-wiki. 
+__September 2011__, 39 pages Paper about content migration betweens wikis and the implementation of a modular software for converting any wiki into a git-based gollum archive-wiki.
 
 * "PDF herunterladen":downloads/wiki-migration-caramelize-paper-sept-2011.pdf
 * "Online Presentation":http://presentations.danielsenff.de/caramelize
@@ -50,6 +50,12 @@ h3. Don't play – Why stakeholder value does not work
 __January 2010__, 5 pages Paper, why companies in stock exchange always end up having ethical-economic dilemmas.
 * "PDF download":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
 
+h3. Visual Programming of image processing algorithms using ImageJ
+
+__March 2009__, 60 pages Bachelor's thesis about Visual Programming, its use in graphic processing and the implementation of a node-based user interface for the graphic analysis software ImageJ. This thesis resulted in the project "ImageFlow":projects/imageflow/index.en.html.
+
+* "Paper at Researchgate":http://www.researchgate.net/publication/235970730_Visual_Programming_of_image_processing_algorithms_using_ImageJ
+
 h3. Cryptography in Instant Messaging
 
 __December 2008__, 7 pages term paper, Instant Messaging is a wide-spread way of communication today. In this paper the security measures of each protocolls are presented and compared.
@@ -60,6 +66,6 @@ h2. Misc
 
 h3. Online releases of software projects
 
-__September 2009__, 4-part online-tutorial about the release of software projects 
+__September 2009__, 4-part online-tutorial about the release of software projects.
 
 * "How to release a mod":http://devblog.ctdp.net/2009/09/how-to-release-a-mod-…/

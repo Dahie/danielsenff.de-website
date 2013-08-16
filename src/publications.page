@@ -17,9 +17,11 @@ Die erste Hälfte des Workshop gab eine kurze Zusammenfassung des Projekts und d
 
 h2. Studium
 
-h3. Visual Programming of image processing algorithms using ImageJ
 
-__März 2009__, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ. Das Ergebnis dieser Arbeit war das Projekt ImageFlow.
+h3. Design and implementation of web-based navigation concepts for a multi-dimensional product catalog
+
+__Mai 2013__, 120 Seiten Masterarbeit über den Einsatz von 3D für die Navigation in Produktkatalogen im Webbrowser. Es werden die Technologien WebGL und CSS-transitions vorgestellt und in einem Prototypen zur Darstellung von Bildprodukten eingesetzt.
+
 
 h3. Online Storage
 
@@ -45,6 +47,12 @@ h3. Don't play – Why stakeholder value does not work
 __Januar 2010__, 5 Seiten Facharbeit, Warum der Börsengang einer Firma zwangsweise zu ethisch-ökonomischen Dillema führt.
 * "PDF herunterladen":downloads/Daniel-Senff-Dontplay-stakeholder-value.pdf
 
+h3. Visual Programming of image processing algorithms using ImageJ
+
+__März 2009__, 60 Seiten Bachelorarbeit über Visuelles Programmieren, deren Anwendung in der Grafikverarbeitung und der Implementierung einer knoten-basierten Benutzeroberfläche auf Basis dieses Paradigmas für die Grafikanalyse-Software ImageJ. Das Ergebnis dieser Arbeit war das Projekt "ImageFlow":projects/imageflow/index.html.
+
+* "Paper at Researchgate":http://www.researchgate.net/publication/235970730_Visual_Programming_of_image_processing_algorithms_using_ImageJ
+
 h3. Cryptography in Instant Messaging
 
 __Dezember 2008__, 7 Seiten Facharbeit, Instant Messaging ist heute ein weit verbreitetes Kommunikationsformat. In dieser Arbeit werden kurz die Sicherheitssysteme der geläufigsten Protokolle vorgestellt.
@@ -55,6 +63,6 @@ h2. Sonstiges
 
 h3. Online-Veröffentlichung von (Software)-Projekten
 
-__September 2009__, 4-teiliges Online-Tutorial über das Veröffentlichen von Software Projekten. 
+__September 2009__, 4-teiliges Online-Tutorial über das Veröffentlichen von Software Projekten.
 
 * "How to release a mod":http://devblog.ctdp.net/2009/09/how-to-release-a-mod-…/
