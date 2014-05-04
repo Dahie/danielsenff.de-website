@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^projects/index.html?$ ./index.html#projects [L]
