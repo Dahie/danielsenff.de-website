@@ -1,0 +1,12 @@
+**/.sass-cache/
+.git*
+.rvmrc
+.rsync-exclude
+.DS_Store
+*.sassc
+Gemfile*
+source/
+*.psd
+Rakefile
+*.rb
+.git/
