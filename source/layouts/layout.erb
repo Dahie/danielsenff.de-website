@@ -3,18 +3,17 @@
 
 <head>
     <meta charset="utf-8" />
-    <title><%= current_page.data.title || "Middleman" %></title>
-
+    <title>
+        <%= current_page.data.title || "Middleman" %>
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-
     <!-- Template CSS Files -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/stylesheets/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/font-awesome.all.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/jquery.animatedheadline.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/skins/goldrenrod.css" />
-
     <!-- Template JS Files -->
     <script src="javascripts/modernizr.custom.js"></script>
 </head>
@@ -28,11 +27,8 @@
     </div>
     <!-- Preloader Ends -->
     <!-- Wrapper Starts -->
-
     <%= yield %>
-
     <!-- Wrapper Ends -->
-
     <!-- Template JS Files -->
     <script src="javascripts/jquery-2.2.4.min.js"></script>
     <script src="javascripts/jquery.animatedheadline.js"></script>
@@ -40,8 +36,6 @@
     <script src="javascripts/materialize.min.js"></script>
     <script src="javascripts/jquery.hoverdir.js"></script>
     <script src="javascripts/custom.js"></script>
-
 </body>
 
 </html>
-
