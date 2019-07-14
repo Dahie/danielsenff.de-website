@@ -270,7 +270,7 @@ body.dark .resume-list-item-title {
   color: #888;
 }
 
-body.dark #bl-work-items>div a, body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside {
+body.dark #bl-work-items-list>div a, body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside {
   border: 1px solid #333;
 }
 
@@ -1042,48 +1042,48 @@ span.separator {
 
 /*** Direction-Aware Items ***/
 
-#bl-work-items {
+#bl-work-items-list {
   list-style: none;
   position: relative;
   margin-bottom: 0;
   padding: 5px 12px 0;
 }
 
-#bl-work-items>div {
+#bl-work-items-list>div {
   float: left;
   padding-bottom: 24px;
   position: relative;
 }
 
-#bl-work-items>div a,
-#bl-work-items>div a img {
+#bl-work-items-list>div a,
+#bl-work-items-list>div a img {
   display: block;
   position: relative;
 }
 
-#bl-work-items>div a {
+#bl-work-items-list>div a {
   overflow: hidden;
 }
 
-#bl-work-items>div a div {
+#bl-work-items-list>div a div {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-#bl-work-items>div a div span {
+#bl-work-items-list>div a div span {
   margin: 0 auto;
   text-transform: uppercase;
   color: #fff;
 }
 
-#bl-work-items>div a {
+#bl-work-items-list>div a {
   display: block;
   transition: .3s ease-out;
   border: 1px solid #eff0f0;
 }
 
-#bl-work-items>div a span {
+#bl-work-items-list>div a span {
   color: #fff;
   font-size: 17px;
 }
@@ -2124,7 +2124,7 @@ body.blog .pagination li a i {
     width: 22px;
   }
 
-  #bl-work-items>div {
+  #bl-work-items-list>div {
     margin-bottom: 0;
     padding: 24px 15px 0;
   }
@@ -2169,9 +2169,9 @@ body.blog .pagination li a i {
     padding: 0;
   }
 
-  #bl-work-items {
+  #bl-work-items-list {
     margin-top: -22px;
-	margin-bottom: 30px;
+	  margin-bottom: 30px;
   }
 
   body.blog article h4 {
@@ -2250,13 +2250,13 @@ body.blog .pagination li a i {
 .section-padding.section-padding-right-none {
 	  padding-right:15px !important;
   }
-  #bl-work-items {
+  #bl-work-items-list {
     padding: 0;
-	margin-bottom:15px;
+	  margin-bottom:15px;
 	  margin-top: -15px;
   }
 
-  #bl-work-items>div {
+  #bl-work-items-list>div {
     padding: 15px 15px 0;
   }
 
