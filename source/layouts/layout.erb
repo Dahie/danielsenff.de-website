@@ -18,7 +18,7 @@
     <script src="javascripts/modernizr.custom.js"></script>
 </head>
 
-<body>
+<body class="<%= current_page.data.body_classes || '' %>">
     <!-- Preloader Start -->
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -27,7 +27,9 @@
     </div>
     <!-- Preloader Ends -->
     <!-- Wrapper Starts -->
-    <%= yield %>
+    <div class="wrapper">
+        <%= yield %>
+    </div>
     <!-- Wrapper Ends -->
     <!-- Template JS Files -->
     <script src="javascripts/jquery-2.2.4.min.js"></script>
