@@ -4,6 +4,7 @@
 
 .page-title h2 span:first-child::before,
 .page-title h2 span:nth-child(2),
+h3,
 .divider .fa,
 .bl-main>section.topleft .bl-box .ah-headline.clip .ah-words-wrapper,
 .skills .resume-content i,
@@ -13,7 +14,7 @@
 body.blog .meta i,
 body.blog .meta a,
 .widget.recent-posts .entry-title a:hover,
-.sidebar ul.nav-tabs li.active a, 
+.sidebar ul.nav-tabs li.active a,
 .sidebar ul.nav-tabs li:hover a,
 body.blog .btn.back-homepage,
 body.blog article h4:hover,
@@ -25,7 +26,7 @@ body.blog .btn.back,
 div.bl-panel-items nav span.bl-previous-work,
 div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close {
-	color:#4169e1;
+	color:#FEAE63;
 }
 
 .readmore.btn,
@@ -45,12 +46,24 @@ body.blog .pagination li.active,
 .comments-form button:active,
 body.blog .btn.back:hover,
 .personal-info a.btn.btn-blog:hover  {
-	background: #4169e1;
+	background: #FEAE63;
 }
 .resume-card-name {
-	color: #4169e1 !important;
+	color: #FEAE63 !important;
 }
 body.blog .btn.back ,
 .personal-info a.btn.btn-blog {
-	border:1px solid #4169e1;
+	border:1px solid #FEAE63;
+}
+
+body.dark.blog {
+  background: #171530;
+}
+
+h2, h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+body.blog.dark blockquote p {
+  color: #eee;
 }

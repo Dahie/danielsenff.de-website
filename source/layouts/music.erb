@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        <%= current_page.data.title || "Middleman" %>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.all.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.animatedheadline.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/skins/blue.css" />
+    <!-- Template JS Files -->
+    <script src="/javascripts/modernizr.custom.js"></script>
+</head>
+
+<body class="<%= current_page.data.body_classes || '' %>">
+    <!-- Preloader Start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+        <%= yield %>
+    </div>
+    <!-- Wrapper Ends -->
+    <!-- Template JS Files -->
+    <script src="/javascripts/jquery-2.2.4.min.js"></script>
+    <script src="/javascripts/jquery.animatedheadline.js"></script>
+    <script src="/javascripts/boxlayout.js"></script>
+    <script src="/javascripts/materialize.min.js"></script>
+    <script src="/javascripts/jquery.hoverdir.js"></script>
+    <script src="/javascripts/custom.js"></script>
+</body>
+
+</html>
