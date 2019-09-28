@@ -67,3 +67,9 @@ h2, h3 {
 body.blog.dark blockquote p {
   color: #eee;
 }
+
+blockquote {
+  border: 0;
+  text-align: justify;
+  font-style: italic;
+}

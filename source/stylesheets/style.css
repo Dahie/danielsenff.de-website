@@ -217,15 +217,6 @@ body.blog.dark .widget-tags ul > li a:hover {
   color: #fff;
 }
 
-
-body.blog.dark blockquote p { color: #999;}
-blockquote {
-  border: 0;
-  text-align: justify;
-  font-style: italic;
-}
-
-
 body.dark .bl-main>section.topleft .bl-box .ah-headline span:first-child,
 body.dark .bl-content p,
 body.dark .personal-info ul li,
