@@ -2,6 +2,7 @@
 /* Blue #4169e1
 ====================================================================== */
 
+.page-title h2 { margin-bottom: 4rem; }
 .page-title h2 span:first-child::before,
 .page-title h2 span:nth-child(2),
 h3,
@@ -57,7 +58,9 @@ body.blog .btn.back ,
 }
 
 body.dark.blog {
-  background: #171530;
+  background: #171530 url('/images/music-website-bg.jpg') repeat-x;
+  background-size: cover;
+
 }
 
 h2, h3 {
