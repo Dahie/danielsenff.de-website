@@ -76,3 +76,13 @@ blockquote {
   text-align: justify;
   font-style: italic;
 }
+
+.glow-border {
+  margin-top: 25px;
+  box-shadow:
+    0 0 25px rgb(255, 255, 255, 0.5),
+    -5px 0 40px rgb(254, 234, 132, 0.5),
+    5px 0 40px rgb(253, 198, 131, 0.5);
+  box-shadow:
+    0 0 25px rgb(254, 182, 111, 1.0);
+}
