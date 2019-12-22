@@ -2286,3 +2286,7 @@ body.blog .pagination li a i {
   }
 
 }
+
+.list-inline.center-align li:last-child {
+  margin: 0;
+}
