@@ -1373,7 +1373,7 @@ ul.social-intro {
 }
 
 ul.social-intro li a {
-  color: #fff !important;
+  color: #fff;
   transition: .3s ease-out;
 }
 
