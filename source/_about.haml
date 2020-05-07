@@ -1,0 +1,72 @@
+%section
+  / About Title Starts
+  .bl-box.valign-wrapper
+    .page-title.center-align
+      %h2.center-align
+        %span{"data-hover" => "About"} About
+        %span{"data-hover" => "Me"} Me
+  / About Title Ends
+  / About Expanded Starts
+  .bl-content
+    / Main Heading Starts
+    .container.page-title.custom-page-title
+      %h2.center-align
+        %span About
+        %span Me
+    / Main Heading Ends
+    .container.infos
+      / Divider Starts
+      .divider.center-align
+        %span.outer-line
+        %span.fa.fa-vcard{"aria-hidden" => "true"}
+        %span.outer-line
+      / Divider Ends
+      / Personal Informations Starts
+      .row
+        / Picture Starts
+        .col.s12.m4.profile-picture.show-on-medium-and-down.section-padding
+          %img.responsive-img.my-picture{:alt => "My Photo", :src => "http://via.placeholder.com/594x1032"}/
+        / Picture Ends
+        .col.s12.m8.l12.xl12.personal-info.section-padding
+          %h6.uppercase
+            %i.fa.fa-user
+            Personal Info
+          .col.m12.l12.xl9.p-none
+            %p.second-font
+              I'm a Senior Software Developer and Project Manager focussing on Web applications. I produce my own music and I like to travel.
+          .col.s12.m12.l6.p-none
+            %ul.second-font.list-1
+              %li
+                %span.font-weight-700> Name:
+                Daniel Senff
+              %li
+                %span.font-weight-700> Date of birth:
+                14 december 1985
+              %li
+                %span.font-weight-700> Nationality:
+                German
+          .col.s12.m12.l6.p-none
+            %ul.second-font.list-2
+              %li
+                %span.font-weight-700> Address:
+                Berlin, Europe
+              %li
+                %span.font-weight-700> Email:
+                public@danielsenff.de
+              %li
+                %span.font-weight-700> Spoken Langages:
+                German,  English
+          /
+            <a href="#" class="btn font-weight-700">
+            Download Resume <i class="fa fa-file-pdf-o"></i>
+            </a>
+            <a href="blog-light.html" class="btn btn-blog font-weight-700">
+            My Blog <i class="fa fa-edit"></i>
+            </a>
+      / Personal Informations Ends
+
+      = partial 'overview'
+      = partial 'resume'
+
+  / End Expanded About
+  %img.bl-icon-close{:alt => "close", :src => "images/close-button.png"}/
