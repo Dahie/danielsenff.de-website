@@ -1,0 +1,21 @@
+%section#bl-work-section
+  .bl-box.valign-wrapper
+    .page-title.center-align
+      %h2.center-align
+        %span{"data-hover" => "my"} my
+        %span{"data-hover" => "profiles"} profiles
+  .bl-content
+    .container.page-title.center-align
+      %h2.center-align
+        %span{"data-hover" => "my"} my
+        %span{"data-hover" => "profiles"} profiles
+
+    .container
+      .divider.center-align
+        %span.outer-line
+        %span.fa.fa-suitcase{"aria-hidden" => "true"}
+        %span.outer-line
+
+      = partial 'profiles'
+
+  %img.bl-icon-close{:alt => "close", :src => "images/close-button.png"}/
