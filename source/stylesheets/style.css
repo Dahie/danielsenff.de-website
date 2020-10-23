@@ -217,6 +217,10 @@ body.blog.dark .widget-tags ul > li a:hover {
   color: #fff;
 }
 
+body.dark .personal-info ul {
+  line-height: 1em;
+}
+
 body.dark .bl-main>section.topleft .bl-box .ah-headline span:first-child,
 body.dark .bl-content p,
 body.dark .personal-info ul li,
