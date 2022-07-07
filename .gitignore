@@ -4,3 +4,4 @@
 .sass-cache
 build/
 output/
+node_modules/
