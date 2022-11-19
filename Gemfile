@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'net-ftp'
 gem 'middleman'
 gem 'middleman-autoprefixer', '~> 3.0'
 gem 'middleman-deploy', git: 'git@github.com:zillyinc/middleman-deploy.git'
