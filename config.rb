@@ -7,7 +7,6 @@ set :haml, { :format => :html5 }
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page '/music/*', layout: 'music'
 
 activate :deploy do |deploy|
   deploy.deploy_method = :rsync
