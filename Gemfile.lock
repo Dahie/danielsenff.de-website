@@ -27,7 +27,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.2.2)
     contracts (0.13.0)
-    date (3.2.2)
+    date (3.3.3)
     dotenv (2.7.6)
     erubis (2.7.0)
     execjs (2.8.1)
@@ -113,7 +113,7 @@ GEM
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
-    time (0.2.0)
+    time (0.2.2)
       date
     timeout (0.3.0)
     toml (0.3.0)
