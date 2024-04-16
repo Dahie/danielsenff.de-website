@@ -10,7 +10,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.1.7.3)
+    activesupport (6.1.7.7)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -25,7 +25,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     contracts (0.13.0)
     date (3.3.3)
     dotenv (2.7.6)
@@ -84,7 +84,7 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
-    minitest (5.18.0)
+    minitest (5.22.3)
     net-ftp (0.2.0)
       net-protocol
       time
@@ -123,7 +123,7 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     webrick (1.7.0)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.13)
 
 PLATFORMS
   ruby
